@@ -4,7 +4,7 @@
 }
 
 <div class="row justify-content-center">
-    <div class="col-md-8">
+    <div class="col-md-6">
         <h1>Edit</h1>
         <form asp-action="edit" method="post" enctype="multipart/form-data">
             <div class="form-group">
@@ -77,7 +77,7 @@
                 @foreach (var item in Model.PlantImages.Where(x => x.PosterStatus == null))
                 {
                     <div class="img-box" style="position:relative;margin-right:14px">
-                        <span class="remove-icon">x</span>
+                        <span class="remove-icon" style="color:red; cursor:pointer;">x</span>
                             <input type="hidden" value="@item.Id" name="PlantImageIds">
                             <img width="200" src="~/uploads/plants/@item.ImageName" />
                     </div>

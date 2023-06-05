@@ -20,8 +20,7 @@ namespace ProniaProject.Models
         public decimal SalePrice { get; set; }
         [Column(TypeName = "money")]
         public decimal CostPrice { get; set; }
-        //[Column(TypeName = "money")]
-        //public decimal DiscountPercent { get; set; }
+        
         [Required]
         public bool StockStatus { get; set; }
         [Required]

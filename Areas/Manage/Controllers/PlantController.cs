@@ -213,5 +213,25 @@ namespace ProniaProject.Areas.Manage.Controllers
             return RedirectToAction("index");
         }
 
+        public IActionResult Delete (int id)
+        {
+            Plant plant = _context.Plants.Include(x=>x.PlantImages).FirstOrDefault(x=>x.Id== id);
+            if (plant == null) return View("Error");
+            return View(plant);
+        }
+
+        [HttpPost]
+        public IActionResult Delete (Plant plant)
+        {
+            Plant existPlant = _context.Plants.Find(plant.Id);
+
+            if (existPlant == null) return View("error");
+
+            _context.Plants.Remove(existPlant);
+            _context.SaveChanges();
+
+            return RedirectToAction("index");
+        }
+
     }
 }
