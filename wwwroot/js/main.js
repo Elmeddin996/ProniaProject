@@ -42,7 +42,7 @@
     new WOW().init();
 
     /*---------------------------------------
-		Header Sticky
+        Header Sticky
 ---------------------------------*/
     $(window).on('scroll', function () {
         if ($(this).scrollTop() > 210) {
@@ -76,7 +76,7 @@
     );
 
     /*---------------------------------------
-		Swiper All Slider
+        Swiper All Slider
 ---------------------------------*/
 
     /* ---Main Slider--- */
@@ -526,7 +526,7 @@
 
     /*----------------------------------------*/
     /* Toggle Function Active
-	/*----------------------------------------*/
+    /*----------------------------------------*/
     // showlogin toggle
     $('#showlogin').on('click', function () {
         $('#checkout-login').slideToggle(900);
@@ -645,8 +645,8 @@
     }
 
     /*------------------------------------
-	    Magnific Popup
-	    ------------------------------------- */
+        Magnific Popup
+        ------------------------------------- */
     if ($('.popup-vimeo').elExists()) {
         $('.popup-vimeo').magnificPopup({
             type: 'iframe',
@@ -668,8 +668,8 @@
     }
 
     /*------------------------------------
-	Toolbar Button
-	------------------------------------- */
+    Toolbar Button
+    ------------------------------------- */
     var $overlay = $('.global-overlay');
     $('.toolbar-btn').on('click', function (e) {
         e.preventDefault();

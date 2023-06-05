@@ -1,0 +1,87 @@
+﻿@model PaginatedList<Plant>
+
+@{
+    ViewData["Title"] = "Index";
+    int order = 0;
+}
+<div class="content">
+    
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h1>Plants</h1>
+        <div class="row">
+            <div class="col-md-8">
+                <form asp-action="index" method="get">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <input type="text" name="search" class="form-control" id="textInput" value="@ViewBag.Search" placeholder="Search">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-4">
+                <a class="btn btn-primary" asp-action="create">Create</a>
+            </div>
+        </div>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Categories</th>
+                    <th scope="col">SalePrice</th>
+                    <th scope="col">CostPrice</th>
+                    <th scope="col">Image</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var item in Model.Items)
+                {
+                    order++;
+                    <tr>
+                        <th scope="row">@order</th>
+                        <td>@item.Name</td>
+                        <td>@item.Categories.Name</td>
+                        <td>@item.SalePrice</td>
+                        <td>@item.CostPrice</td>
+                        <td><img  width="50" src="~/uploads/plants/@item.PlantImages.FirstOrDefault(x=>x.PosterStatus==true)?.ImageName"/></td>
+
+                        <td>
+                            <a class="btn btn-warning" asp-action="edit" asp-route-id="@item.Id">Edit</a>
+                            <a class="btn btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item @(Model.HasPrev?"":"disabled")">
+                    <a class="page-link" asp-action="index" asp-route-page="@(Model.PageIndex-1)" asp-route-search="@ViewBag.Search" tabindex="-1">Previous</a>
+                </li>
+                @for (int i = 1; i <= Model.TotalPage; i++)
+                {
+                    <li class="page-item @(i==Model.PageIndex?"active":"")"><a class="page-link" asp-action="index" asp-route-page="@i" asp-route-search="@ViewBag.Search">@i</a></li>
+                }
+                <li class="page-item @(Model.HasNext?"":"disabled")">
+                    <a class="page-link" asp-action="index" asp-route-page="@(Model.PageIndex+1)" asp-route-search="@ViewBag.Search">Next</a>
+                </li>
+            </ul>
+        </nav>
+
+
+    </div>
+</div>
+
+
+
+</div>

@@ -20,8 +20,8 @@ namespace ProniaProject.Models
         public decimal SalePrice { get; set; }
         [Column(TypeName = "money")]
         public decimal CostPrice { get; set; }
-        [Column(TypeName = "money")]
-        public decimal DiscountPercent { get; set; }
+        //[Column(TypeName = "money")]
+        //public decimal DiscountPercent { get; set; }
         [Required]
         public bool StockStatus { get; set; }
         [Required]
@@ -40,10 +40,16 @@ namespace ProniaProject.Models
         [MaxFileSize(2097152)]
         [AllowedFileTypes("image/jpeg", "image/png")]
         public List<IFormFile> Images { get; set; } = new List<IFormFile>();
+        [NotMapped]
+        public List<int> TagIds { get; set; } = new List<int>();
+        [NotMapped]
+        public List<int> PlantImageIds { get; set; } = new List<int>();
 
 
 
         public Categorie Categories { get; set; }
+
         public List<PlantTag> PlantTags { get; set; } = new List<PlantTag>();
+        public List<PlantImage> PlantImages { get; set; } = new List<PlantImage>();
     }
 }
