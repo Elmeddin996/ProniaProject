@@ -1445,6 +1445,10 @@
       "PackagePath": "staticwebassets\\uploads\\plants\\06cb6c49-fb3d-45f3-ab5a-11c2dd4a8b6c1-2-370x300.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\0d7b4719-9373-49b0-aa53-ef803c818ba51-3-370x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\0d7b4719-9373-49b0-aa53-ef803c818ba51-3-370x300.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\134eb65c-c1a5-413b-a200-983ceec7363a1-8-270x300.jpg",
       "PackagePath": "staticwebassets\\uploads\\plants\\134eb65c-c1a5-413b-a200-983ceec7363a1-8-270x300.jpg"
     },
@@ -1477,12 +1481,28 @@
       "PackagePath": "staticwebassets\\uploads\\plants\\5bcfb61f-4da8-4c3e-8faa-9538287004dadownload (1).jpg"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\68b0e377-d350-4f57-ba52-c7f993b6be401-4-570x633.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\68b0e377-d350-4f57-ba52-c7f993b6be401-4-570x633.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\738ddbd0-d7e4-4004-9667-ca6ae2c5dfd6download (2).jpg",
       "PackagePath": "staticwebassets\\uploads\\plants\\738ddbd0-d7e4-4004-9667-ca6ae2c5dfd6download (2).jpg"
     },
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\75307824-f753-44c3-b1fe-b49c7a4b01921-8-270x300 - Copy.jpg",
       "PackagePath": "staticwebassets\\uploads\\plants\\75307824-f753-44c3-b1fe-b49c7a4b01921-8-270x300 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\9452e452-24e4-4726-9e19-ef4e5dbf79a91-3-570x633.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\9452e452-24e4-4726-9e19-ef4e5dbf79a91-3-570x633.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\952f266d-2b41-40a2-a4fe-3d5748caf8911-1-570x633.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\952f266d-2b41-40a2-a4fe-3d5748caf8911-1-570x633.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\a1812ba3-4d7c-48e5-8145-1bbb377f4a191-4-270x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\a1812ba3-4d7c-48e5-8145-1bbb377f4a191-4-270x300.jpg"
     },
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\a3d38856-5400-4586-b929-4a57645facecdownload.jpg",
@@ -1515,6 +1535,26 @@
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\d9571759-0c91-49a1-a543-13c3cf9828a31-3-270x300.jpg",
       "PackagePath": "staticwebassets\\uploads\\plants\\d9571759-0c91-49a1-a543-13c3cf9828a31-3-270x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\01312ccb-0eec-4f1b-aaf4-aa39404f1bdf1.png",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\01312ccb-0eec-4f1b-aaf4-aa39404f1bdf1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\72f66c99-ae3a-406c-9bbb-5594ceff8e9d1-1-1820x443.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\72f66c99-ae3a-406c-9bbb-5594ceff8e9d1-1-1820x443.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\8a9a3bb8-2096-4adb-91e4-f16d6f8861b11-1-770x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\8a9a3bb8-2096-4adb-91e4-f16d6f8861b11-1-770x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\a282dc3e-7cc6-47fe-aeda-bd19522bfc4e1-1-770x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\a282dc3e-7cc6-47fe-aeda-bd19522bfc4e1-1-770x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\dcd77933-6e5a-45dd-9319-f5f2eb0785151-1-1820x443.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\dcd77933-6e5a-45dd-9319-f5f2eb0785151-1-1820x443.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ProniaProject.Microsoft.AspNetCore.StaticWebAssets.props",
