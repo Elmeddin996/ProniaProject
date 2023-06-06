@@ -1,4 +1,12 @@
-﻿<!DOCTYPE html>
+﻿@*﻿@using ProniaProject.Services
+@inject LayoutServices _layoutService
+@{
+    var settings = _layoutService.GetSettings();
+    var genres = _layoutService.GetCategories();
+    var basket = _layoutService.GetBasket();
+}
+*@
+<!DOCTYPE html>
 <html lang="zxx">
   <head>
     <meta charset="UTF-8" />
@@ -1074,8 +1082,7 @@
                   <div class="social-link with-border">
                     <ul>
                       <li>
-                        <a
-                          href="#"
+                        <a href="#"
                           data-tippy="Facebook"
                           data-tippy-inertia="true"
                           data-tippy-animation="shift-away"
@@ -1087,8 +1094,7 @@
                         </a>
                       </li>
                       <li>
-                        <a
-                          href="#"
+                        <a href="#"
                           data-tippy="Twitter"
                           data-tippy-inertia="true"
                           data-tippy-animation="shift-away"
@@ -1100,8 +1106,7 @@
                         </a>
                       </li>
                       <li>
-                        <a
-                          href="#"
+                        <a href="#"
                           data-tippy="Pinterest"
                           data-tippy-inertia="true"
                           data-tippy-animation="shift-away"
@@ -1113,8 +1118,7 @@
                         </a>
                       </li>
                       <li>
-                        <a
-                          href="#"
+                        <a href="#"
                           data-tippy="Dribbble"
                           data-tippy-inertia="true"
                           data-tippy-animation="shift-away"
@@ -1198,7 +1202,7 @@
               <div class="col-lg-3 pt-40">
                 <div class="footer-contact-info">
                   <h3 class="footer-widget-title">Got Question? Call Us</h3>
-                  <a class="number" href="tel://123-456-789">123 456 789</a>
+                                <a class="number" href="tel://+994-55-916-83-96">#</a>
                   <div class="address">
                     <ul>
                       <li>Your Address Goes Here</li>

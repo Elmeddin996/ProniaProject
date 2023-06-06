@@ -37,7 +37,7 @@ namespace ProniaProject.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("ProniaProject.Models.Plant", b =>
@@ -79,7 +79,7 @@ namespace ProniaProject.Migrations
 
                     b.HasIndex("CategorieId");
 
-                    b.ToTable("Plants");
+                    b.ToTable("Plants", (string)null);
                 });
 
             modelBuilder.Entity("ProniaProject.Models.PlantImage", b =>
@@ -103,7 +103,7 @@ namespace ProniaProject.Migrations
 
                     b.HasIndex("PlantId");
 
-                    b.ToTable("PlantImages");
+                    b.ToTable("PlantImages", (string)null);
                 });
 
             modelBuilder.Entity("ProniaProject.Models.PlantTag", b =>
@@ -118,7 +118,7 @@ namespace ProniaProject.Migrations
 
                     b.HasIndex("PlantId");
 
-                    b.ToTable("PlantTags");
+                    b.ToTable("PlantTags", (string)null);
                 });
 
             modelBuilder.Entity("ProniaProject.Models.Setting", b =>
@@ -133,7 +133,7 @@ namespace ProniaProject.Migrations
 
                     b.HasKey("Key");
 
-                    b.ToTable("Settings");
+                    b.ToTable("Settings", (string)null);
                 });
 
             modelBuilder.Entity("ProniaProject.Models.Slider", b =>
@@ -177,7 +177,7 @@ namespace ProniaProject.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Sliders");
+                    b.ToTable("Sliders", (string)null);
                 });
 
             modelBuilder.Entity("ProniaProject.Models.Tag", b =>
@@ -195,7 +195,7 @@ namespace ProniaProject.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tags");
+                    b.ToTable("Tags", (string)null);
                 });
 
             modelBuilder.Entity("ProniaProject.Models.Plant", b =>
