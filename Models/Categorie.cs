@@ -9,6 +9,6 @@ namespace ProniaProject.Models
         [MaxLength(20, ErrorMessage = "Not longer than 20!")]
         public string Name { get; set; }
 
-        public List<Plant> Plants { get; set; }
+        public List<Plant> Plants { get; set; } = new List<Plant>();
     }
 }

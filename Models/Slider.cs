@@ -24,5 +24,11 @@ namespace ProniaProject.Models
         [AllowedFileTypes("image/jpeg", "image/png")]
         [NotMapped]
         public IFormFile ImageFile { get; set; }
+        [MaxLength(100)]
+        public string BgImageName { get; set; }
+        [MaxFileSize(2097152)]
+        [AllowedFileTypes("image/jpeg", "image/png")]
+        [NotMapped]
+        public IFormFile BgImageFile { get; set; }
     }
 }

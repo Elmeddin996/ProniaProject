@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProniaProject.DAL;
 
@@ -11,9 +12,10 @@ using ProniaProject.DAL;
 namespace ProniaProject.Migrations
 {
     [DbContext(typeof(ProniaContext))]
-    partial class ProniaContextModelSnapshot : ModelSnapshot
+    [Migration("20230606151347_SettingTableAdded")]
+    partial class SettingTableAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -48,9 +50,6 @@ namespace ProniaProject.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<bool>("Bestseller")
-                        .HasColumnType("bit");
-
                     b.Property<int>("CategorieId")
                         .HasColumnType("int");
 
@@ -74,6 +73,9 @@ namespace ProniaProject.Migrations
 
                     b.Property<decimal>("SalePrice")
                         .HasColumnType("money");
+
+                    b.Property<bool>("StockStatus")
+                        .HasColumnType("bit");
 
                     b.HasKey("Id");
 
@@ -143,10 +145,6 @@ namespace ProniaProject.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<string>("BgImageName")
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("BtnText")
                         .HasMaxLength(50)

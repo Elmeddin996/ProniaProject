@@ -1,23 +1,25 @@
-﻿<!-- Begin Slider Area -->
+﻿@model HomeViewModel 
+
+<!-- Begin Slider Area -->
 <div class="slider-area">
     <!-- Main Slider -->
     <div class="swiper-container main-slider swiper-arrow with-bg_white">
         <div class="swiper-wrapper">
-            <div class="swiper-slide animation-style-01">
+            @foreach (var sl in Model.Sliders)
+            {
+                <div class="swiper-slide animation-style-01">
                 <div class="slide-inner style-1 bg-height"
-                     data-bg-image="assets/images/slider/bg/1-1.jpg">
+                     data-bg-image="~/uploads/sliders/@sl.BgImageName">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6 order-2 order-lg-1 align-self-center">
                                 <div class="slide-content text-black">
-                                    <span class="offer">65% Off</span>
-                                    <h2 class="title">New Plant</h2>
-                                    <p class="short-desc">
-                                        Pronia, With 100% Natural, Organic & Plant Shop.
-                                    </p>
+                                    <span class="offer">@sl.Offer</span>
+                                    <h2 class="title">@sl.Title</h2>
+                                    <p class="short-desc">@sl.Desc</p>
                                     <div class="btn-wrap">
                                         <a class="btn btn-custom-size xl-size btn-pronia-primary"
-                                           href="shop.html">Discover Now</a>
+                                           href="@sl.BtnUrl">@sl.BtnText</a>
                                     </div>
                                 </div>
                             </div>
@@ -25,7 +27,7 @@
                                 <div class="inner-img">
                                     <div class="scene fill">
                                         <div class="expand-width" data-depth="0.2">
-                                            <img src="~/images/website-images//1-1-524x617.png"
+                                            <img src="~/uploads/sliders/@sl.ImageName"
                                                  alt="Inner Image" />
                                         </div>
                                     </div>
@@ -35,38 +37,9 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide animation-style-01">
-                <div class="slide-inner style-1 bg-height"
-                     data-bg-image="assets/images/slider/bg/1-1.jpg">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 order-2 order-lg-1 align-self-center">
-                                <div class="slide-content text-black">
-                                    <span class="offer">65% Off</span>
-                                    <h2 class="title">New Plant</h2>
-                                    <p class="short-desc">
-                                        Pronia, With 100% Natural, Organic & Plant Shop.
-                                    </p>
-                                    <div class="btn-wrap">
-                                        <a class="btn btn-custom-size xl-size btn-pronia-primary"
-                                           href="shop.html">Discover Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-8 offset-md-2 offset-lg-0 order-1 order-lg-2">
-                                <div class="inner-img">
-                                    <div class="scene fill">
-                                        <div class="expand-width" data-depth="0.2">
-                                            <img src="~/images/website-images//1-2-524x617.png"
-                                                 alt="Inner Image" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                
+            }
+           
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination d-md-none"></div>
@@ -2193,7 +2166,7 @@
 <div class="testimonial-area section-space-top-90 section-space-bottom-95">
     <div class="container-fluid">
         <div class="testimonial-bg"
-             data-bg-image="assets/images/testimonial/bg/1-1-1820x443.jpg">
+             data-bg-image="~/images/testimonial/bg/1-1-1820x443.jpg">
             <div class="section-title-wrap">
                 <h2 class="section-title">What Say Client</h2>
                 <p class="section-desc mb-0">
@@ -2271,7 +2244,7 @@
 <div class="brand-area section-space-bottom-100">
     <div class="container">
         <div class="brand-bg"
-             data-bg-image="assets/images/website-images//1-1170x300.jpg">
+             data-bg-image="~/images/website-images//1-1170x300.jpg">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="swiper-container brand-slider">

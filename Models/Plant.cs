@@ -22,7 +22,7 @@ namespace ProniaProject.Models
         public decimal CostPrice { get; set; }
         
         [Required]
-        public bool StockStatus { get; set; }
+        public bool Bestseller { get; set; }
         [Required]
         public bool IsFeatured { get; set; }
         [Required]

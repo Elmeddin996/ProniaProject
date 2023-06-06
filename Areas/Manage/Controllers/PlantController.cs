@@ -5,6 +5,7 @@ using ProniaProject.Areas.Manage.ViewModels;
 using ProniaProject.DAL;
 using ProniaProject.Helpers;
 using ProniaProject.Models;
+using System.Numerics;
 
 namespace ProniaProject.Areas.Manage.Controllers
 {
@@ -21,10 +22,10 @@ namespace ProniaProject.Areas.Manage.Controllers
             _env = env;
         }
 
-        public IActionResult Index(int page=1, string search=null)
+        public IActionResult Index(int page = 1, string search = null)
         {
             var query = _context.Plants
-                .Include(x=>x.Categories).Include(x=>x.PlantImages.Where(pi=>pi.PosterStatus==true)).AsQueryable();
+                .Include(x => x.Categories).Include(x => x.PlantImages.Where(pi => pi.PosterStatus == true)).AsQueryable();
 
             if (search != null)
                 query = query.Where(x => x.Name.Contains(search));
@@ -46,11 +47,18 @@ namespace ProniaProject.Areas.Manage.Controllers
         [HttpPost]
         public IActionResult Create(Plant plant)
         {
-            if (!ModelState.IsValid) return View();
+            if (!ModelState.IsValid)
+            {
+                ViewBag.Categories = _context.Categories.ToList();
+                ViewBag.Tags = _context.Tags.ToList();
+                return View();
+            }
 
             if (!_context.Categories.Any(x => x.Id == plant.CategorieId))
             {
                 ModelState.AddModelError("CategorieId", "Categorie is not correct");
+                ViewBag.Categories = _context.Categories.ToList();
+                ViewBag.Tags = _context.Tags.ToList();
                 return View();
             }
 
@@ -58,11 +66,15 @@ namespace ProniaProject.Areas.Manage.Controllers
             if (plant.PosterImage == null)
             {
                 ModelState.AddModelError("PosterImage", "PosterImage is required");
+                ViewBag.Categories = _context.Categories.ToList();
+                ViewBag.Tags = _context.Tags.ToList();
                 return View();
             }
             if (plant.HoverPosterImage == null)
             {
                 ModelState.AddModelError("HoverPosterImage", "Hover Poster Image is required");
+                ViewBag.Categories = _context.Categories.ToList();
+                ViewBag.Tags = _context.Tags.ToList();
                 return View();
             }
 
@@ -113,10 +125,10 @@ namespace ProniaProject.Areas.Manage.Controllers
             ViewBag.Tags = _context.Tags.ToList();
 
 
-            Plant plant = _context.Plants.Include(x => x.PlantImages).Include(x =>x.PlantTags).FirstOrDefault(x => x.Id == id);
+            Plant plant = _context.Plants.Include(x => x.PlantImages).Include(x => x.PlantTags).FirstOrDefault(x => x.Id == id);
 
             plant.TagIds = plant.PlantTags.Select(x => x.TagId).ToList();
-            
+
 
             return View(plant);
         }
@@ -197,7 +209,7 @@ namespace ProniaProject.Areas.Manage.Controllers
             existPlant.Desc = plant.Desc;
             existPlant.IsFeatured = plant.IsFeatured;
             existPlant.IsNew = plant.IsNew;
-            existPlant.StockStatus = plant.StockStatus;
+            existPlant.Bestseller = plant.Bestseller;
             existPlant.CategorieId = plant.CategorieId;
 
             _context.SaveChanges();
@@ -207,25 +219,31 @@ namespace ProniaProject.Areas.Manage.Controllers
             if (oldHoverPoster != null) FileManager.Delete(_env.WebRootPath, "uploads/plants", oldHoverPoster);
 
             if (removedImages.Any())
-                FileManager.DeleteAll(_env.WebRootPath, "uploads/books", removedImages.Select(x => x.ImageName).ToList());
+                FileManager.DeleteAll(_env.WebRootPath, "uploads/plants", removedImages.Select(x => x.ImageName).ToList());
 
 
             return RedirectToAction("index");
         }
 
-        public IActionResult Delete (int id)
+        public IActionResult Delete(int id)
         {
-            Plant plant = _context.Plants.Include(x=>x.PlantImages).FirstOrDefault(x=>x.Id== id);
+            Plant plant = _context.Plants.Include(x => x.PlantImages).FirstOrDefault(x => x.Id == id);
             if (plant == null) return View("Error");
             return View(plant);
         }
 
         [HttpPost]
-        public IActionResult Delete (Plant plant)
+        public IActionResult Delete(Plant plant)
         {
-            Plant existPlant = _context.Plants.Find(plant.Id);
+            Plant existPlant = _context.Plants.Include(x => x.PlantImages).FirstOrDefault(x => x.Id == plant.Id);
 
             if (existPlant == null) return View("error");
+
+            var removedImages = existPlant.PlantImages;
+
+            if (removedImages.Any())
+                FileManager.DeleteAll(_env.WebRootPath, "uploads/plants", removedImages.Select(x => x.ImageName).ToList());
+
 
             _context.Plants.Remove(existPlant);
             _context.SaveChanges();
