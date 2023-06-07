@@ -1,11 +1,11 @@
-﻿@*﻿@using ProniaProject.Services
+﻿﻿@using ProniaProject.Services
 @inject LayoutServices _layoutService
 @{
     var settings = _layoutService.GetSettings();
     var genres = _layoutService.GetCategories();
-    var basket = _layoutService.GetBasket();
+    //var basket = _layoutService.GetBasket();
 }
-*@
+
 <!DOCTYPE html>
 <html lang="zxx">
   <head>

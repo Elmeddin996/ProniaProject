@@ -10,7 +10,8 @@ builder.Services.AddDbContext<ProniaContext>(opt =>
     opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
 
-//builder.Services.AddSingleton<LayoutServices>();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<LayoutServices>();
 
 var app = builder.Build();
 
@@ -25,6 +26,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+
 
 app.UseRouting();
 

@@ -1,0 +1,55 @@
+﻿@model Banner
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <h1>Edit</h1>
+        <form asp-action="edit" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Title">Title</label>
+                <input class="form-control" asp-for="Title">
+                <span class="text-danger" asp-validation-for="Title"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Title2">Title2</label>
+                <input class="form-control" asp-for="Title2">
+                <span class="text-danger" asp-validation-for="Title2"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CollectionName">CollectionName</label>
+                <input class="form-control" asp-for="CollectionName">
+                <span class="text-danger" asp-validation-for="CollectionName"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="BtnText">BtnText</label>
+                <input class="form-control" asp-for="BtnText">
+                <span class="text-danger" asp-validation-for="BtnText"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BtnUrl">BtnUrl</label>
+                <input class="form-control" asp-for="BtnUrl">
+                <span class="text-danger" asp-validation-for="BtnUrl"></span>
+            </div>
+            <hr />
+            <hr />
+            <div class="form-group">
+                <label asp-for="ImageFile">Image</label>
+                <input class="form-control" asp-for="ImageFile">
+                <span class="text-danger" asp-validation-for="ImageFile"></span>
+
+            </div>
+            <hr />
+            <hr />
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts{
+    @Html.Partial("_ValidationScriptsPartial")
+}

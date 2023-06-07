@@ -2,9 +2,9 @@
 {
     public class PaginatedList<T>
     {
-        public PaginatedList(List<T> tems, int pageIndex, int totalPage)
+        public PaginatedList(List<T> items, int pageIndex, int totalPage)
         {
-            Items = tems;
+            Items = items;
             PageIndex = pageIndex;
             TotalPage = totalPage;
         }

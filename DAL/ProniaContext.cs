@@ -17,6 +17,7 @@ namespace ProniaProject.DAL
         public DbSet<Slider> Sliders { get; set; }
         public DbSet<Tag> Tags { get; set; }
         public DbSet<Setting> Settings { get; set; }
+        public DbSet<Banner> Banners { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -8,5 +8,6 @@ namespace ProniaProject.ViewModel
         public List<Plant> Features { get; set; }
         public List<Plant> New { get; set; }
         public List<Slider> Sliders { get; set; }
+        public List<Banner> Banners { get; set; }
     }
 }

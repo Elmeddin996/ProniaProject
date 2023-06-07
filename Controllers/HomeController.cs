@@ -22,7 +22,8 @@ namespace ProniaProject.Controllers
                 Bestsellers= _context.Plants.Include(x=>x.PlantImages).Where(x=>x.Bestseller).Take(10).ToList(),
                 Features = _context.Plants.Include(x => x.PlantImages).Where(x => x.IsFeatured).Take(10).ToList(),
                 New = _context.Plants.Include(x => x.PlantImages).Where(x => x.IsNew).Take(10).ToList(),
-                Sliders=_context.Sliders.ToList()
+                Sliders=_context.Sliders.ToList(),
+                Banners=_context.Banners.Take(4).ToList()
             };
             return View(vm);
         }

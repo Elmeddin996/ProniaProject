@@ -22,8 +22,15 @@ namespace ProniaProject.Areas.Manage.Controllers
         {
             var query = _context.Sliders.OrderBy(x => x.Order).AsQueryable();
 
+            var data = PaginatedList<Slider>.Create(query, page, 2);
 
-            return View(PaginatedList<Slider>.Create(query, page, 1));
+            if (data.TotalPage < page)
+            {
+                string url = Url.Action("index", "slider", new { page = data.TotalPage });
+                return Redirect(url);
+            }
+
+            return View(data);
         }
 
         public IActionResult Create()

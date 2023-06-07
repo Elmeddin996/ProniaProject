@@ -1,0 +1,65 @@
+﻿@model PaginatedList<Banner>
+@{
+    ViewData["Title"] = "Index";
+    int order = (Model.PageIndex-1)*1;
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <h1>Banner Datas</h1>
+        
+        <br />
+        <a class="btn btn-primary" asp-action="create">Create</a>
+        <br />
+        <br />
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Title2</th>
+                    <th scope="col">CollectionName</th>
+                    <th scope="col">Image</th>
+                    <th scope="col">ButtonText</th>
+                    <th scope="col">ButtonUrl</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var item in Model.Items)
+                {
+                    order++;
+                    <tr>
+                        <th scope="row">@order</th>
+                        <td>@item.Title</td>
+                        <td>@item.Title2</td>
+                        <td>@item.CollectionName</td>
+                        <td><img src="~/uploads/banners/@item.ImageName" width="70"/></td>
+                        <td>@item.BtnText</td>
+                        <td>@item.BtnUrl</td>
+                        <td>
+                            <a class="btn btn-warning" asp-action="edit" asp-route-id="@item.Id">Edit</a>
+                            <a class="btn btn-danger delete-btn" asp-action="delete" asp-route-id="@item.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table
+    </div>
+     <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item @(Model.HasPrev?"":"disabled")">
+                    <a class="page-link" asp-action="index" asp-route-page="@(Model.PageIndex-1)" asp-route-search="@ViewBag.Search" tabindex="-1">Previous</a>
+                </li>
+                @for (int i = 1; i <= Model.TotalPage; i++)
+                {
+                    <li class="page-item @(i==Model.PageIndex?"active":"")"><a class="page-link" asp-action="index" asp-route-page="@i" asp-route-search="@ViewBag.Search">@i</a></li>
+                }
+                <li class="page-item @(Model.HasNext?"":"disabled")">
+                    <a class="page-link" asp-action="index" asp-route-page="@(Model.PageIndex+1)" asp-route-search="@ViewBag.Search">Next</a>
+                </li>
+            </ul>
+        </nav>
+</div>
+
+

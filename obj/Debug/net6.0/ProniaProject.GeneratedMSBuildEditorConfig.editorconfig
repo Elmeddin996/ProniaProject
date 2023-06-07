@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\User\OneDrive\Desktop\ProniaProject
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/User/OneDrive/Desktop/ProniaProject/Areas/Manage/Views/Banner/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXEJhbm5lclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/OneDrive/Desktop/ProniaProject/Areas/Manage/Views/Banner/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXEJhbm5lclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/OneDrive/Desktop/ProniaProject/Areas/Manage/Views/Banner/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXEJhbm5lclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/User/OneDrive/Desktop/ProniaProject/Areas/Manage/Views/Categorie/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXENhdGVnb3JpZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
