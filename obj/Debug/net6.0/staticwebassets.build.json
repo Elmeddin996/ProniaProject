@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kKwa6O9I0irZNGBvHhy4/5hBBjRN4BqJ7OQTByt/7BU=",
+  "Hash": "o1+C31umzvSk0inlN7pTTzIBSn7slFvleUmCmetbIzQ=",
   "Source": "ProniaProject",
   "BasePath": "_content/ProniaProject",
   "Mode": "Default",
@@ -2837,6 +2837,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\website-images\\service.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\js\\index.js",
+      "SourceId": "ProniaProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\",
+      "BasePath": "_content/ProniaProject",
+      "RelativePath": "js/index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\index.js"
     },
     {
       "Identity": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\js\\main.js",

@@ -62,7 +62,7 @@
                                  alt="Shipping Icon" />
                         </div>
                         <div class="shipping-content">
-                            <h2 class="title">Free Shipping</h2>
+                            <h2 class="title">Free Shipping</h2> 
                             <p class="short-desc mb-0">Capped at $319 per order</p>
                         </div>
                     </div>
@@ -144,240 +144,19 @@
                          id="bestseller"
                          role="tabpanel"
                          aria-labelledby="bestseller-tab">
-                        <div class="product-item-wrap row">
-                            @foreach (var item in Model.Bestsellers)
-                            {
-                                <div class="col-xl-3 col-md-4 col-sm-6">
-                                    <div class="product-item">
-                                        <div class="product-img">
-                                            <a href="shop.html">
-                                                <img class="primary-img"
-                                                     src="~/uploads/plants/@item.PlantImages.FirstOrDefault(x=>x.PosterStatus==true)?.ImageName"
-                                                     alt="Product Images" />
-                                                <img class="secondary-img"
-                                                     src="~/uploads/plants/@item.PlantImages.FirstOrDefault(x=>x.PosterStatus==false)?.ImageName"
-                                                     alt="Product Images" />
-                                            </a>
-                                            <div class="product-add-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="wishlist.html"
-                                                           data-tippy="Add to wishlist"
-                                                           data-tippy-inertia="true"
-                                                           data-tippy-animation="shift-away"
-                                                           data-tippy-delay="50"
-                                                           data-tippy-arrow="true"
-                                                           data-tippy-theme="sharpborder">
-                                                            <i class="pe-7s-like"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li class="quuickview-btn"
-                                                        data-bs-toggle="modal"
-                                                        data-bs-target="#quickModal">
-                                                        <a href="#"
-                                                           data-tippy="Quickview"
-                                                           data-tippy-inertia="true"
-                                                           data-tippy-animation="shift-away"
-                                                           data-tippy-delay="50"
-                                                           data-tippy-arrow="true"
-                                                           data-tippy-theme="sharpborder">
-                                                            <i class="pe-7s-look"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="cart.html"
-                                                           data-tippy="Add to cart"
-                                                           data-tippy-inertia="true"
-                                                           data-tippy-animation="shift-away"
-                                                           data-tippy-delay="50"
-                                                           data-tippy-arrow="true"
-                                                           data-tippy-theme="sharpborder">
-                                                            <i class="pe-7s-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-content">
-                                            <a class="product-name" href="shop.html">@item.Name</a>
-                                            <div class="price-box pb-1">
-                                                <span class="new-price">$@item.SalePrice</span>
-                                            </div>
-                                            <div class="rating-box">
-                                                <ul>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            }
-                        </div>
+                        @Html.Partial("_PlantTabContentPartial", Model.Bestsellers)
                     </div>
                     <div class="tab-pane fade"
                          id="featured"
                          role="tabpanel"
                          aria-labelledby="featured-tab">
-                        <div class="product-item-wrap row">
-                            @foreach (var item in Model.Features)
-                            {
-                                <div class="col-xl-3 col-md-4 col-sm-6">
-                                    <div class="product-item">
-                                        <div class="product-img">
-                                            <a href="shop.html">
-                                                <img class="primary-img"
-                                                     src="~/uploads/plants/@item.PlantImages.FirstOrDefault(x=>x.PosterStatus==true)?.ImageName"
-                                                     alt="Product Images" />
-                                                <img class="secondary-img"
-                                                     src="~/uploads/plants/@item.PlantImages.FirstOrDefault(x=>x.PosterStatus==false)?.ImageName"
-                                                     alt="Product Images" />
-                                            </a>
-                                            <div class="product-add-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="wishlist.html"
-                                                           data-tippy="Add to wishlist"
-                                                           data-tippy-inertia="true"
-                                                           data-tippy-animation="shift-away"
-                                                           data-tippy-delay="50"
-                                                           data-tippy-arrow="true"
-                                                           data-tippy-theme="sharpborder">
-                                                            <i class="pe-7s-like"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li class="quuickview-btn"
-                                                        data-bs-toggle="modal"
-                                                        data-bs-target="#quickModal">
-                                                        <a href="#"
-                                                           data-tippy="Quickview"
-                                                           data-tippy-inertia="true"
-                                                           data-tippy-animation="shift-away"
-                                                           data-tippy-delay="50"
-                                                           data-tippy-arrow="true"
-                                                           data-tippy-theme="sharpborder">
-                                                            <i class="pe-7s-look"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="cart.html"
-                                                           data-tippy="Add to cart"
-                                                           data-tippy-inertia="true"
-                                                           data-tippy-animation="shift-away"
-                                                           data-tippy-delay="50"
-                                                           data-tippy-arrow="true"
-                                                           data-tippy-theme="sharpborder">
-                                                            <i class="pe-7s-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-content">
-                                            <a class="product-name" href="shop.html">@item.Name</a>
-                                            <div class="price-box pb-1">
-                                                <span class="new-price">$@item.SalePrice</span>
-                                            </div>
-                                            <div class="rating-box">
-                                                <ul>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            }
-                        </div>
+                        @Html.Partial("_PlantTabContentPartial", Model.Features)
                     </div>
                     <div class="tab-pane fade"
                          id="new"
                          role="tabpanel"
                          aria-labelledby="new-tab">
-                        <div class="product-item-wrap row">
-
-                            @foreach (var item in Model.New)
-                            {
-                                <div class="col-xl-3 col-md-4 col-sm-6">
-                                    <div class="product-item">
-                                        <div class="product-img">
-                                            <a href="shop.html">
-                                                <img class="primary-img"
-                                                     src="~/uploads/plants/@item.PlantImages.FirstOrDefault(x=>x.PosterStatus==true)?.ImageName"
-                                                     alt="Product Images" />
-                                                <img class="secondary-img"
-                                                     src="~/uploads/plants/@item.PlantImages.FirstOrDefault(x=>x.PosterStatus==false)?.ImageName"
-                                                     alt="Product Images" />
-                                            </a>
-                                            <div class="product-add-action">
-                                                <ul>
-                                                    <li>
-                                                        <a href="wishlist.html"
-                                                           data-tippy="Add to wishlist"
-                                                           data-tippy-inertia="true"
-                                                           data-tippy-animation="shift-away"
-                                                           data-tippy-delay="50"
-                                                           data-tippy-arrow="true"
-                                                           data-tippy-theme="sharpborder">
-                                                            <i class="pe-7s-like"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li class="quuickview-btn"
-                                                        data-bs-toggle="modal"
-                                                        data-bs-target="#quickModal">
-                                                        <a href="#"
-                                                           data-tippy="Quickview"
-                                                           data-tippy-inertia="true"
-                                                           data-tippy-animation="shift-away"
-                                                           data-tippy-delay="50"
-                                                           data-tippy-arrow="true"
-                                                           data-tippy-theme="sharpborder">
-                                                            <i class="pe-7s-look"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="cart.html"
-                                                           data-tippy="Add to cart"
-                                                           data-tippy-inertia="true"
-                                                           data-tippy-animation="shift-away"
-                                                           data-tippy-delay="50"
-                                                           data-tippy-arrow="true"
-                                                           data-tippy-theme="sharpborder">
-                                                            <i class="pe-7s-cart"></i>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="product-content">
-                                            <a class="product-name" href="shop.html">@item.Name</a>
-                                            <div class="price-box pb-1">
-                                                <span class="new-price">$@item.SalePrice</span>
-                                            </div>
-                                            <div class="rating-box">
-                                                <ul>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            }
-
-                        </div>
+                        @Html.Partial("_PlantTabContentPartial", Model.New)
                     </div>
                 </div>
             </div>
@@ -400,7 +179,7 @@
                             <img src="~/uploads/banners/@ban.ImageName"
                                  alt="Banner Image" />
                         </div>
-                        <div class="banner-content text-position-center">
+                        <div class="banner-content text-position-left">
                             <span class="collection">@ban.CollectionName</span>
                             <h3 class="title">@ban.Title 
                                 @if (ban.Title2!=null)

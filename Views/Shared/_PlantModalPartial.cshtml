@@ -1,0 +1,107 @@
+﻿@model Plant
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                data-tippy="Close"
+                data-tippy-inertia="true"
+                data-tippy-animation="shift-away"
+                data-tippy-delay="50"
+                data-tippy-arrow="true"
+                data-tippy-theme="sharpborder"></button>
+    </div>
+    <div class="modal-body">
+        <div class="modal-wrap row">
+            <div class="col-lg-6">
+                <div class="modal-img">
+                    <div class="swiper-container modal-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#" class="single-img">
+                                    <img class="img-full"
+                                         src="~/uploads/plants/@Model.PlantImages.FirstOrDefault(x=>x.PosterStatus==true)?.ImageName"
+                                         alt="Product Image" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 pt-5 pt-lg-0">
+                <div class="single-product-content">
+                    <h2 class="title">@Model.Name</h2>
+                    <div class="price-box">
+                        <span class="new-price">$@Model.SalePrice</span>
+                    </div>
+                    <div class="rating-box-wrap">
+                        <div class="rating-box">
+                            <ul>
+                                
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                            </ul>
+                        </div>
+                        <div class="review-status">
+                            <a href="#">( 1 Review )</a>
+                        </div>
+                    </div>
+                    
+                    <p class="short-desc">
+                        @Model.Desc
+                    </p>
+                    <ul class="quantity-with-btn">
+                       
+                        <li class="add-to-cart">
+                            <a class="btn btn-custom-size lg-size btn-pronia-primary"
+                               href="cart.html">Add to cart</a>
+                        </li>
+                      
+                    </ul>
+                    <ul class="service-item-wrap pb-0">
+                        <li class="service-item">
+                            <div class="service-img">
+                                <img src="~/images/shipping/icon/car.png"
+                                     alt="Shipping Icon" />
+                            </div>
+                            <div class="service-content">
+                                <span class="title">
+                                    Free <br />
+                                    Shipping
+                                </span>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-img">
+                                <img src="~/images/shipping/icon/card.png"
+                                     alt="Shipping Icon" />
+                            </div>
+                            <div class="service-content">
+                                <span class="title">
+                                    Safe <br />
+                                    Payment
+                                </span>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-img">
+                                <img src="~/images/shipping/icon/service.png"
+                                     alt="Shipping Icon" />
+                            </div>
+                            <div class="service-content">
+                                <span class="title">
+                                    Safe <br />
+                                    Payment
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

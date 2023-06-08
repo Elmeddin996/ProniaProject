@@ -50,5 +50,6 @@ namespace ProniaProject.Models
 
         public List<PlantTag> PlantTags { get; set; } = new List<PlantTag>();
         public List<PlantImage> PlantImages { get; set; } = new List<PlantImage>();
+        public List<PlantComment> PlantComments { get; set; } = new List<PlantComment>();
     }
 }

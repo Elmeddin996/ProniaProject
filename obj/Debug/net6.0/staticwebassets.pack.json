@@ -661,6 +661,10 @@
       "PackagePath": "staticwebassets\\images\\website-images\\service.png"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },

@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using ProniaProject.Models;
 
 namespace ProniaProject.DAL
 {
-    public class ProniaContext:DbContext
+    public class ProniaContext:IdentityDbContext
     {
         public ProniaContext(DbContextOptions<ProniaContext> options) : base(options)
         {
@@ -18,7 +19,7 @@ namespace ProniaProject.DAL
         public DbSet<Tag> Tags { get; set; }
         public DbSet<Setting> Settings { get; set; }
         public DbSet<Banner> Banners { get; set; }
-
+        public DbSet<AppUser> AppUsers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
