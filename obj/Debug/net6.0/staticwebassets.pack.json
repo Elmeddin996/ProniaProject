@@ -233,6 +233,10 @@
       "PackagePath": "staticwebassets\\images\\contact\\1-1-370x500.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\images\\download.png",
+      "PackagePath": "staticwebassets\\images\\download.png"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\images\\error-404\\404.png",
       "PackagePath": "staticwebassets\\images\\error-404\\404.png"
     },

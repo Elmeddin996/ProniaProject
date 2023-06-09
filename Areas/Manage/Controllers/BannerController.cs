@@ -6,6 +6,7 @@ using ProniaProject.Models;
 
 namespace ProniaProject.Areas.Manage.Controllers
 {
+
     [Area("manage")]
     public class BannerController : Controller
     {

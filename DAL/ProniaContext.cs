@@ -20,6 +20,7 @@ namespace ProniaProject.DAL
         public DbSet<Setting> Settings { get; set; }
         public DbSet<Banner> Banners { get; set; }
         public DbSet<AppUser> AppUsers { get; set; }
+        public DbSet<BasketItem> BasketItems { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

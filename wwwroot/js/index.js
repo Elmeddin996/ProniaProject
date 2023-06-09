@@ -21,31 +21,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-$(document).on("click", ".addtobasket", function (e) {
+$(document).on("click", ".addtocart", function (e) {
     e.preventDefault();
     let url = $(this).attr("href");
     fetch(url)
@@ -56,11 +32,12 @@ $(document).on("click", ".addtobasket", function (e) {
             return response.text()
         })
         .then(data => {
-            $(".cart-block").html(data)
+            $(".cart").html(data)
         })
 })
 
-$(document).on("click", ".removefrombasket", function (e) {
+
+$(document).on("click", ".product-item_remove", function (e) {
     e.preventDefault();
     let url = $(this).attr("href");
     fetch(url)
@@ -72,6 +49,10 @@ $(document).on("click", ".removefrombasket", function (e) {
             return response.text()
         })
         .then(data => {
-            $(".cart-block").html(data)
+            $(".minicart-product").html(data)
         })
+    
 })
+
+
+

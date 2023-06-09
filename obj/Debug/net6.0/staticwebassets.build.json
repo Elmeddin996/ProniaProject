@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o1+C31umzvSk0inlN7pTTzIBSn7slFvleUmCmetbIzQ=",
+  "Hash": "u5ofP9QkoZkNn0KzbreVWDSABnwQfFuUlHTTbT6ivhg=",
   "Source": "ProniaProject",
   "BasePath": "_content/ProniaProject",
   "Mode": "Default",
@@ -1018,6 +1018,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\contact\\1-1-370x500.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\images\\download.png",
+      "SourceId": "ProniaProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\",
+      "BasePath": "_content/ProniaProject",
+      "RelativePath": "images/download.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\download.png"
     },
     {
       "Identity": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\images\\error-404\\404.png",
