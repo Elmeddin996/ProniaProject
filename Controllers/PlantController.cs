@@ -166,15 +166,22 @@ namespace ProniaProject.Controllers
             return PartialView("_CartPartialView", bv);
         }
 
-        public IActionResult ShowBasket()
+      
+
+        public IActionResult ViewCart()
         {
-            var basket = new List<BasketItemCookieViewModel>();
-            var basketStr = Request.Cookies["Basket"];
-
-            if (basketStr != null)
-                basket = JsonConvert.DeserializeObject<List<BasketItemCookieViewModel>>(basketStr);
-
-            return Json(new { basket });
+            BasketViewModel bv = new BasketViewModel();
+            var basketItems = _context.BasketItems.Include(x=>x.Plant).ThenInclude(x=>x.PlantImages);
+            foreach (var item in basketItems)
+            {
+                BasketItemViewModel bi = new BasketItemViewModel
+                {
+                    Plant =  item.Plant,
+                    Count = item.Count
+                };
+                bv.BasketItems.Add(bi);
+            }
+            return View(bv);
         }
     }
 }

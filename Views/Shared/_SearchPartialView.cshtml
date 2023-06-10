@@ -1,0 +1,6 @@
+﻿@model List<Plant>
+
+    @foreach (Plant plant in Model)
+    {
+    <li><a asp-controller="plant" asp-action="getplantdetail" asp-route-id="@plant.Id">@plant.Name</a></li>
+    }

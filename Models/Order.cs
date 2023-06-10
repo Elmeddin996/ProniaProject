@@ -7,7 +7,6 @@ namespace ProniaProject.Models
     {
         public int Id { get; set; }
         public string AppUserId { get; set; }
-
         [Required]
         [MaxLength(20)]
         public string FullName { get; set; }
@@ -20,6 +19,7 @@ namespace ProniaProject.Models
         public string Email { get; set; }
         [MaxLength(200)]
         public string Note { get; set; }
+
         public DateTime CreatedAt { get; set; }
         public OrderStatus Status { get; set; }
         public AppUser AppUser { get; set; }

@@ -27,5 +27,21 @@ namespace ProniaProject.Controllers
             };
             return View(vm);
         }
+
+        public IActionResult Search(string search)
+        {
+            if (_context.Plants == null)
+            {
+                return NotFound(); 
+            }
+
+            var searchLowerTrimmed = search.ToLower().Trim();
+            var searchedPlants = _context.Plants
+                .Where(x => x.Name.ToLower().Trim().Contains(searchLowerTrimmed))
+                .ToList();
+
+            return PartialView("_SearchPartialView", searchedPlants);
+        }
+
     }
 }

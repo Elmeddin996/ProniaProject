@@ -62,4 +62,17 @@ $(document).on("click", ".removefrombasket", function (e) {
     
 })
 
+$(document).on("keyup", "#inputSearch", function (e) {
+    e.preventDefault();
+    var searchedPlant = $(this).val()
+    $("#searchArea li").remove();
+    $.ajax({
+        url: "/home/search?search=" + searchedPlant,
+        type: 'GET',
+        success: function (html) {
+
+            $("#searchArea").append(html)
+        }
+    });
+})
 

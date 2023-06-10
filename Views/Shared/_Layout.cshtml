@@ -117,7 +117,7 @@
                                     <a href="tel://+994505481996">@settings["HeaderNumber"]</a>
                                 </div>
 
-                                <a href="index.html" class="header-logo">
+                                <a asp-controller="home" asp-action="index" class="header-logo">
                                     <img src="~/images/logo/@settings["HeaderLogo"]" alt="Header Logo" />
                                 </a>
 
@@ -206,7 +206,7 @@
                 <div class="container">
                     <div class="header-nav position-relative">
 
-                        <a href="index.html" class="header-logo">
+                        <a asp-controller="home" asp-action="index" class="header-logo">
                             <img src="~/images/logo/@settings["HeaderLogo"]" alt="Header Logo" />
                         </a>
 
@@ -574,13 +574,16 @@
                         <div class="modal-body">
                             <div class="modal-search">
                                 <span class="searchbox-info">
-                                    Start typing and press Enter to search or ESC to
-                                    close
+                                   
+                                    <ul id="searchArea">
+                                    </ul>
                                 </span>
+                              
                                 <form action="#" class="hm-searchbox">
                                     <input type="text"
                                            name="Search..."
                                            value="Search..."
+                                           id="inputSearch"
                                            onblur="if(this.value==''){this.value='Search...'}"
                                            onfocus="if(this.value=='Search...'){this.value=''}"
                                            autocomplete="off" />
@@ -589,7 +592,12 @@
                                             aria-label="searchbtn">
                                         <i class="pe-7s-search"></i>
                                     </button>
+
+                                    
+
                                 </form>
+                                <ul id="searchArea">
+                                </ul>
                             </div>
                         </div>
                     </div>
