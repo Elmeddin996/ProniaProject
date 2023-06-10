@@ -19,9 +19,14 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
 }).AddDefaultTokenProviders().AddEntityFrameworkStores<ProniaContext>();
 
 builder.Services.AddScoped<LayoutServices>();
+builder.Services.AddScoped<IEmailSender,EmailSender>();
 
 builder.Services.AddHttpContextAccessor();
 
+builder.Services.AddSession(opt =>
+{
+    opt.IdleTimeout = TimeSpan.FromSeconds(10);
+});
 
 builder.Services.ConfigureApplicationCookie(options =>
 {
@@ -60,7 +65,9 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
+
 
 app.MapControllerRoute(
     name: "areas",

@@ -19,7 +19,7 @@
                 @foreach (var item in Model.BasketItems)
                 {
                     <li class="minicart-product">
-                        <a class="product-item_remove" href="#">
+                        <a asp-action="removebasket" asp-controller="plant" asp-route-id="@item.Plant.Id" class="product-item_remove removefrombasket" >
                             <i class="pe-7s-close"
                                data-tippy="Remove"
                                data-tippy-inertia="true"

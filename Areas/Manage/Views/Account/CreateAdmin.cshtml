@@ -1,0 +1,24 @@
+﻿@model AdminRegisterViewModel
+@{
+    ViewData["Title"] = "CreateAdmin";
+}
+
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <h1>CreateAdmin</h1>
+        <form asp-action="createadmin" method="post">
+            <div class="form-group">
+                <label asp-for="UserName">UserName</label>
+                <input class="form-control" asp-for="UserName">
+                <span class="text-danger" asp-validation-for="UserName"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password">Password</label>
+                <input class="form-control" asp-for="Password">
+                <span class="text-danger" asp-validation-for="Password"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>

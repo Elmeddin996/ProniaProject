@@ -1,11 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ProniaProject.Areas.Manage.ViewModels;
 using ProniaProject.DAL;
 using ProniaProject.Helpers;
 using ProniaProject.Models;
+using System.Data;
 
 namespace ProniaProject.Areas.Manage.Controllers
 {
+    [Authorize(Roles = "SuperAdmin, Admin")]
 
     [Area("manage")]
     public class BannerController : Controller

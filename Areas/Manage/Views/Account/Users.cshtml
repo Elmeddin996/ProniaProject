@@ -1,0 +1,43 @@
+﻿@model List<AppUser>
+@{
+    ViewData["Title"] = "Index";
+    int order = 0;
+}
+
+<div class="content">
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h1>Users</h1>
+            <a class="btn btn-primary" asp-action="createadmin">Create New Admin</a>
+
+        <table id="usersTable" class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col"> UserName</th>
+                    <th scope="col">FullName</th>
+                    <th scope="col">Email</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                    order++;
+                    <tr>
+                        <th scope="row">@order</th>
+                        <td data-id="@item.Id"> @item.UserName</td>
+                        <td>@item.FullName</td>
+                        <td>@item.Email</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+}

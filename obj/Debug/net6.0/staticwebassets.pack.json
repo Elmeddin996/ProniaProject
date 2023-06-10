@@ -673,6 +673,10 @@
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\js\\modal.js",
+      "PackagePath": "staticwebassets\\js\\modal.js"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\js\\plugins.min.js",
       "PackagePath": "staticwebassets\\js\\plugins.min.js"
     },
@@ -733,6 +737,14 @@
       "PackagePath": "staticwebassets\\js\\vendor\\modernizr-3.11.2.min.js"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\css\\animate.css",
+      "PackagePath": "staticwebassets\\manage\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\css\\app-style.css",
+      "PackagePath": "staticwebassets\\manage\\css\\app-style.css"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\css\\black-dashboard.css",
       "PackagePath": "staticwebassets\\manage\\css\\black-dashboard.css"
     },
@@ -745,8 +757,32 @@
       "PackagePath": "staticwebassets\\manage\\css\\black-dashboard.min.css"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\manage\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\manage\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\css\\delete.css",
+      "PackagePath": "staticwebassets\\manage\\css\\delete.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\css\\icons.css",
+      "PackagePath": "staticwebassets\\manage\\css\\icons.css"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\css\\nucleo-icons.css",
       "PackagePath": "staticwebassets\\manage\\css\\nucleo-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\css\\pace.min.css",
+      "PackagePath": "staticwebassets\\manage\\css\\pace.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\css\\sidebar-menu.css",
+      "PackagePath": "staticwebassets\\manage\\css\\sidebar-menu.css"
     },
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\demo\\demo.css",
@@ -755,6 +791,2138 @@
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\demo\\demo.js",
       "PackagePath": "staticwebassets\\manage\\demo\\demo.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ad.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ad.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ae.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ae.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\af.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\af.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ag.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ag.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ai.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ai.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\al.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\al.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\am.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\am.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ao.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ao.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\aq.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\aq.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ar.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ar.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\as.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\as.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\at.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\at.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\au.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\au.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\aw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\aw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ax.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ax.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\az.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\az.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ba.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ba.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\bb.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\bb.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\bd.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\bd.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\be.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\be.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\bf.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\bf.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\bg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\bg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\bh.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\bh.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\bi.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\bi.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\bj.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\bj.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\bl.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\bl.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\bm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\bm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\bn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\bn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\bo.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\bo.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\bq.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\bq.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\br.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\br.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\bs.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\bs.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\bt.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\bt.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\bv.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\bv.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\bw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\bw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\by.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\by.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\bz.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\bz.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ca.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ca.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\cc.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\cc.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\cd.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\cd.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\cf.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\cf.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\cg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\cg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ch.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ch.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ci.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ci.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ck.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ck.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\cl.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\cl.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\cm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\cm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\cn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\cn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\co.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\co.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\cr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\cr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\cu.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\cu.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\cv.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\cv.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\cw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\cw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\cx.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\cx.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\cy.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\cy.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\cz.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\cz.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\de.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\de.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\dj.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\dj.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\dk.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\dk.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\dm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\dm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\do.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\do.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\dz.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\dz.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ec.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ec.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ee.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ee.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\eg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\eg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\eh.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\eh.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\er.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\er.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\es-ct.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\es-ct.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\es.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\es.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\et.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\et.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\eu.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\eu.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\fi.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\fi.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\fj.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\fj.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\fk.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\fk.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\fm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\fm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\fo.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\fo.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\fr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\fr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ga.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ga.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gb-eng.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gb-eng.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gb-nir.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gb-nir.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gb-sct.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gb-sct.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gb-wls.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gb-wls.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gb.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gb.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gd.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gd.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ge.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ge.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gf.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gf.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gh.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gh.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gi.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gi.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gl.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gl.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gp.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gp.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gq.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gq.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gs.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gs.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gt.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gt.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gu.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gu.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\gy.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\gy.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\hk.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\hk.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\hm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\hm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\hn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\hn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\hr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\hr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ht.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ht.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\hu.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\hu.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\id.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\id.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ie.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ie.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\il.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\il.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\im.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\im.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\in.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\in.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\io.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\io.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\iq.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\iq.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ir.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ir.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\is.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\is.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\it.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\it.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\je.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\je.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\jm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\jm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\jo.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\jo.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\jp.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\jp.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ke.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ke.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\kg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\kg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\kh.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\kh.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ki.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ki.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\km.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\km.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\kn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\kn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\kp.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\kp.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\kr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\kr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\kw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\kw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ky.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ky.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\kz.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\kz.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\la.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\la.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\lb.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\lb.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\lc.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\lc.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\li.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\li.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\lk.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\lk.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\lr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\lr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ls.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ls.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\lt.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\lt.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\lu.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\lu.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\lv.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\lv.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ly.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ly.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ma.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ma.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\mc.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\mc.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\md.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\md.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\me.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\me.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\mf.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\mf.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\mg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\mg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\mh.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\mh.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\mk.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\mk.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ml.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ml.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\mm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\mm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\mn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\mn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\mo.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\mo.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\mp.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\mp.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\mq.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\mq.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\mr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\mr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ms.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ms.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\mt.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\mt.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\mu.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\mu.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\mv.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\mv.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\mw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\mw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\mx.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\mx.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\my.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\my.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\mz.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\mz.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\na.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\na.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\nc.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\nc.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ne.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ne.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\nf.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\nf.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ng.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ng.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ni.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ni.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\nl.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\nl.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\no.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\no.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\np.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\np.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\nr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\nr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\nu.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\nu.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\nz.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\nz.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\om.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\om.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\pa.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\pa.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\pe.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\pe.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\pf.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\pf.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\pg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\pg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ph.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ph.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\pk.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\pk.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\pl.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\pl.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\pm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\pm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\pn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\pn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\pr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\pr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ps.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ps.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\pt.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\pt.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\pw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\pw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\py.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\py.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\qa.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\qa.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\re.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\re.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ro.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ro.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\rs.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\rs.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ru.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ru.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\rw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\rw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\sa.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\sa.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\sb.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\sb.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\sc.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\sc.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\sd.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\sd.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\se.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\se.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\sg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\sg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\sh.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\sh.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\si.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\si.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\sj.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\sj.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\sk.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\sk.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\sl.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\sl.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\sm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\sm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\sn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\sn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\so.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\so.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\sr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\sr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ss.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ss.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\st.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\st.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\sv.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\sv.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\sx.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\sx.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\sy.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\sy.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\sz.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\sz.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\tc.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\tc.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\td.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\td.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\tf.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\tf.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\tg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\tg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\th.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\th.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\tj.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\tj.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\tk.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\tk.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\tl.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\tl.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\tm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\tm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\tn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\tn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\to.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\to.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\tr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\tr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\tt.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\tt.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\tv.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\tv.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\tw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\tw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\tz.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\tz.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ua.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ua.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ug.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ug.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\um.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\um.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\un.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\un.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\us.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\us.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\uy.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\uy.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\uz.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\uz.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\va.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\va.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\vc.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\vc.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ve.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ve.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\vg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\vg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\vi.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\vi.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\vn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\vn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\vu.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\vu.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\wf.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\wf.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ws.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ws.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\ye.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\ye.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\yt.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\yt.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\za.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\za.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\zm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\zm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\1x1\\zw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\1x1\\zw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ad.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ad.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ae.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ae.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\af.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\af.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ag.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ag.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ai.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ai.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\al.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\al.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\am.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\am.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ao.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ao.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\aq.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\aq.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ar.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ar.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\as.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\as.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\at.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\at.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\au.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\au.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\aw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\aw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ax.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ax.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\az.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\az.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ba.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ba.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\bb.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\bb.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\bd.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\bd.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\be.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\be.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\bf.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\bf.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\bg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\bg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\bh.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\bh.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\bi.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\bi.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\bj.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\bj.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\bl.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\bl.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\bm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\bm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\bn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\bn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\bo.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\bo.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\bq.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\bq.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\br.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\br.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\bs.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\bs.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\bt.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\bt.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\bv.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\bv.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\bw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\bw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\by.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\by.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\bz.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\bz.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ca.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ca.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\cc.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\cc.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\cd.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\cd.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\cf.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\cf.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\cg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\cg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ch.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ch.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ci.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ci.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ck.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ck.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\cl.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\cl.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\cm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\cm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\cn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\cn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\co.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\co.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\cr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\cr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\cu.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\cu.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\cv.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\cv.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\cw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\cw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\cx.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\cx.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\cy.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\cy.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\cz.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\cz.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\de.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\de.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\dj.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\dj.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\dk.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\dk.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\dm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\dm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\do.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\do.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\dz.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\dz.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ec.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ec.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ee.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ee.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\eg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\eg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\eh.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\eh.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\er.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\er.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\es-ct.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\es-ct.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\es.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\es.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\et.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\et.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\eu.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\eu.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\fi.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\fi.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\fj.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\fj.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\fk.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\fk.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\fm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\fm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\fo.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\fo.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\fr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\fr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ga.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ga.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gb-eng.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gb-eng.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gb-nir.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gb-nir.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gb-sct.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gb-sct.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gb-wls.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gb-wls.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gb.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gb.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gd.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gd.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ge.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ge.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gf.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gf.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gh.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gh.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gi.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gi.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gl.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gl.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gp.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gp.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gq.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gq.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gs.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gs.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gt.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gt.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gu.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gu.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\gy.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\gy.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\hk.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\hk.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\hm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\hm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\hn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\hn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\hr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\hr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ht.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ht.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\hu.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\hu.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\id.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\id.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ie.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ie.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\il.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\il.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\im.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\im.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\in.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\in.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\io.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\io.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\iq.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\iq.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ir.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ir.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\is.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\is.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\it.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\it.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\je.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\je.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\jm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\jm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\jo.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\jo.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\jp.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\jp.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ke.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ke.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\kg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\kg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\kh.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\kh.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ki.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ki.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\km.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\km.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\kn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\kn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\kp.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\kp.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\kr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\kr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\kw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\kw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ky.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ky.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\kz.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\kz.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\la.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\la.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\lb.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\lb.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\lc.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\lc.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\li.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\li.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\lk.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\lk.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\lr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\lr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ls.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ls.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\lt.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\lt.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\lu.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\lu.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\lv.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\lv.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ly.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ly.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ma.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ma.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\mc.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\mc.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\md.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\md.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\me.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\me.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\mf.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\mf.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\mg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\mg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\mh.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\mh.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\mk.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\mk.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ml.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ml.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\mm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\mm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\mn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\mn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\mo.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\mo.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\mp.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\mp.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\mq.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\mq.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\mr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\mr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ms.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ms.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\mt.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\mt.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\mu.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\mu.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\mv.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\mv.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\mw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\mw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\mx.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\mx.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\my.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\my.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\mz.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\mz.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\na.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\na.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\nc.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\nc.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ne.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ne.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\nf.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\nf.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ng.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ng.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ni.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ni.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\nl.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\nl.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\no.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\no.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\np.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\np.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\nr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\nr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\nu.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\nu.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\nz.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\nz.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\om.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\om.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\pa.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\pa.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\pe.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\pe.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\pf.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\pf.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\pg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\pg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ph.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ph.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\pk.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\pk.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\pl.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\pl.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\pm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\pm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\pn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\pn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\pr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\pr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ps.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ps.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\pt.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\pt.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\pw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\pw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\py.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\py.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\qa.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\qa.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\re.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\re.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ro.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ro.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\rs.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\rs.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ru.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ru.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\rw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\rw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\sa.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\sa.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\sb.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\sb.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\sc.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\sc.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\sd.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\sd.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\se.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\se.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\sg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\sg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\sh.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\sh.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\si.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\si.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\sj.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\sj.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\sk.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\sk.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\sl.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\sl.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\sm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\sm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\sn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\sn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\so.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\so.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\sr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\sr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ss.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ss.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\st.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\st.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\sv.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\sv.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\sx.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\sx.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\sy.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\sy.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\sz.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\sz.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\tc.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\tc.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\td.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\td.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\tf.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\tf.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\tg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\tg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\th.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\th.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\tj.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\tj.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\tk.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\tk.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\tl.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\tl.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\tm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\tm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\tn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\tn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\to.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\to.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\tr.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\tr.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\tt.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\tt.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\tv.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\tv.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\tw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\tw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\tz.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\tz.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ua.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ua.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ug.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ug.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\um.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\um.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\un.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\un.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\us.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\us.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\uy.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\uy.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\uz.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\uz.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\va.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\va.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\vc.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\vc.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ve.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ve.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\vg.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\vg.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\vi.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\vi.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\vn.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\vn.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\vu.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\vu.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\wf.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\wf.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ws.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ws.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\ye.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\ye.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\yt.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\yt.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\za.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\za.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\zm.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\zm.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\flags\\4x3\\zw.svg",
+      "PackagePath": "staticwebassets\\manage\\flags\\4x3\\zw.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\manage\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\manage\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\manage\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\manage\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\manage\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\manage\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\Simple-Line-Icons.eot",
+      "PackagePath": "staticwebassets\\manage\\fonts\\Simple-Line-Icons.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\Simple-Line-Icons.svg",
+      "PackagePath": "staticwebassets\\manage\\fonts\\Simple-Line-Icons.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\Simple-Line-Icons.ttf",
+      "PackagePath": "staticwebassets\\manage\\fonts\\Simple-Line-Icons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\Simple-Line-Icons.woff",
+      "PackagePath": "staticwebassets\\manage\\fonts\\Simple-Line-Icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\Simple-Line-Icons.woff2",
+      "PackagePath": "staticwebassets\\manage\\fonts\\Simple-Line-Icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\manage\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\manage\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\manage\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\manage\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\manage\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\line-awesome.eot",
+      "PackagePath": "staticwebassets\\manage\\fonts\\line-awesome.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\line-awesome.svg",
+      "PackagePath": "staticwebassets\\manage\\fonts\\line-awesome.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\line-awesome.ttf",
+      "PackagePath": "staticwebassets\\manage\\fonts\\line-awesome.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\line-awesome.woff",
+      "PackagePath": "staticwebassets\\manage\\fonts\\line-awesome.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\line-awesome.woff2",
+      "PackagePath": "staticwebassets\\manage\\fonts\\line-awesome.woff2"
     },
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\nucleo.eot",
@@ -771,6 +2939,114 @@
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\nucleo.woff2",
       "PackagePath": "staticwebassets\\manage\\fonts\\nucleo.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\manage\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\manage\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\manage\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\manage\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\weathericons-regular-webfont.eot",
+      "PackagePath": "staticwebassets\\manage\\fonts\\weathericons-regular-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\weathericons-regular-webfont.svg",
+      "PackagePath": "staticwebassets\\manage\\fonts\\weathericons-regular-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\weathericons-regular-webfont.ttf",
+      "PackagePath": "staticwebassets\\manage\\fonts\\weathericons-regular-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\weathericons-regular-webfont.woff",
+      "PackagePath": "staticwebassets\\manage\\fonts\\weathericons-regular-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\fonts\\weathericons-regular-webfont.woff2",
+      "PackagePath": "staticwebassets\\manage\\fonts\\weathericons-regular-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\images\\bg-themes\\1.png",
+      "PackagePath": "staticwebassets\\manage\\images\\bg-themes\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\images\\bg-themes\\2.png",
+      "PackagePath": "staticwebassets\\manage\\images\\bg-themes\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\images\\bg-themes\\3.png",
+      "PackagePath": "staticwebassets\\manage\\images\\bg-themes\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\images\\bg-themes\\4.png",
+      "PackagePath": "staticwebassets\\manage\\images\\bg-themes\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\images\\bg-themes\\5.png",
+      "PackagePath": "staticwebassets\\manage\\images\\bg-themes\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\images\\bg-themes\\6.png",
+      "PackagePath": "staticwebassets\\manage\\images\\bg-themes\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\manage\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\images\\gallery\\cd-icon-navigation.svg",
+      "PackagePath": "staticwebassets\\manage\\images\\gallery\\cd-icon-navigation.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\images\\logo-icon.png",
+      "PackagePath": "staticwebassets\\manage\\images\\logo-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\images\\timeline\\angular-icon.svg",
+      "PackagePath": "staticwebassets\\manage\\images\\timeline\\angular-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\images\\timeline\\bootstrap-4.svg",
+      "PackagePath": "staticwebassets\\manage\\images\\timeline\\bootstrap-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\images\\timeline\\cd-arrow.svg",
+      "PackagePath": "staticwebassets\\manage\\images\\timeline\\cd-arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\images\\timeline\\cd-icon-location.svg",
+      "PackagePath": "staticwebassets\\manage\\images\\timeline\\cd-icon-location.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\images\\timeline\\cd-icon-movie.svg",
+      "PackagePath": "staticwebassets\\manage\\images\\timeline\\cd-icon-movie.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\images\\timeline\\cd-icon-picture.svg",
+      "PackagePath": "staticwebassets\\manage\\images\\timeline\\cd-icon-picture.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\images\\timeline\\css-3.svg",
+      "PackagePath": "staticwebassets\\manage\\images\\timeline\\css-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\images\\timeline\\html5.svg",
+      "PackagePath": "staticwebassets\\manage\\images\\timeline\\html5.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\images\\timeline\\react.svg",
+      "PackagePath": "staticwebassets\\manage\\images\\timeline\\react.svg"
     },
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\img\\12345.png",
@@ -825,6 +3101,10 @@
       "PackagePath": "staticwebassets\\manage\\img\\now-logo.png"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\js\\app-script.js",
+      "PackagePath": "staticwebassets\\manage\\js\\app-script.js"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\js\\black-dashboard.js",
       "PackagePath": "staticwebassets\\manage\\js\\black-dashboard.js"
     },
@@ -835,6 +3115,26 @@
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\js\\black-dashboard.min.js",
       "PackagePath": "staticwebassets\\manage\\js\\black-dashboard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\manage\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\js\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\manage\\js\\chart-area-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\js\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\manage\\js\\chart-pie-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\js\\chartjs.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\chartjs.min.js"
     },
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\js\\core\\bootstrap.min.js",
@@ -849,8 +3149,24 @@
       "PackagePath": "staticwebassets\\manage\\js\\core\\popper.min.js"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\js\\index.js",
+      "PackagePath": "staticwebassets\\manage\\js\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\jquery.min.js"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\js\\main.js",
       "PackagePath": "staticwebassets\\manage\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\js\\pace.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pace.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\js\\pie-chart.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pie-chart.js"
     },
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\js\\plugins\\bootstrap-notify.js",
@@ -863,6 +3179,86 @@
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\js\\plugins\\perfect-scrollbar.jquery.min.js",
       "PackagePath": "staticwebassets\\manage\\js\\plugins\\perfect-scrollbar.jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\js\\sidebar-menu.js",
+      "PackagePath": "staticwebassets\\manage\\js\\sidebar-menu.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\plugins\\Chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\Chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\plugins\\Chart.js\\chartjs-script.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\Chart.js\\chartjs-script.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\plugins\\fullcalendar\\css\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\fullcalendar\\css\\fullcalendar.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\plugins\\fullcalendar\\css\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\fullcalendar\\css\\fullcalendar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\plugins\\fullcalendar\\css\\fullcalendar.print.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\fullcalendar\\css\\fullcalendar.print.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\plugins\\fullcalendar\\css\\fullcalendar.print.min.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\fullcalendar\\css\\fullcalendar.print.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\plugins\\fullcalendar\\js\\fullcalendar-custom-script.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\fullcalendar\\js\\fullcalendar-custom-script.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\plugins\\fullcalendar\\js\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\fullcalendar\\js\\fullcalendar.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\plugins\\fullcalendar\\js\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\fullcalendar\\js\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\plugins\\fullcalendar\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\fullcalendar\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\plugins\\fullcalendar\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\fullcalendar\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\plugins\\jquery.easy-pie-chart\\easy-pie-chart.init.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jquery.easy-pie-chart\\easy-pie-chart.init.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\plugins\\jquery.easy-pie-chart\\easypiechart.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jquery.easy-pie-chart\\easypiechart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\plugins\\jquery.easy-pie-chart\\jquery.easypiechart.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\jquery.easy-pie-chart\\jquery.easypiechart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\plugins\\simplebar\\css\\simplebar.css",
+      "PackagePath": "staticwebassets\\manage\\plugins\\simplebar\\css\\simplebar.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\plugins\\simplebar\\js\\simplebar.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\simplebar\\js\\simplebar.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\plugins\\sparkline-charts\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\sparkline-charts\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\plugins\\sparkline-charts\\sparkline-chart-script.js",
+      "PackagePath": "staticwebassets\\manage\\plugins\\sparkline-charts\\sparkline-chart-script.js"
     },
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\manage\\scss\\black-dashboard.scss",
@@ -1449,6 +3845,18 @@
       "PackagePath": "staticwebassets\\manage\\scss\\black-dashboard\\plugins\\_plugin-perfect-scrollbar.scss"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\banners\\0108825e-403e-4f3d-b9f7-51475ad7e28f1-1-770x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\banners\\0108825e-403e-4f3d-b9f7-51475ad7e28f1-1-770x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\banners\\03add8b3-8f02-4256-8a1c-ef35e060799a1-2-310x220.jpg",
+      "PackagePath": "staticwebassets\\uploads\\banners\\03add8b3-8f02-4256-8a1c-ef35e060799a1-2-310x220.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\banners\\16f4d3db-2dc4-44e9-82e1-8f466bee07f21-3-310x220.jpg",
+      "PackagePath": "staticwebassets\\uploads\\banners\\16f4d3db-2dc4-44e9-82e1-8f466bee07f21-3-310x220.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\banners\\3279db23-9cde-4977-9954-1402677ada571-3-370x300.jpg",
       "PackagePath": "staticwebassets\\uploads\\banners\\3279db23-9cde-4977-9954-1402677ada571-3-370x300.jpg"
     },
@@ -1461,8 +3869,24 @@
       "PackagePath": "staticwebassets\\uploads\\banners\\a986765b-2227-4146-8af5-c0ef622ac75a1-2-370x300.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\banners\\b2fdbcb8-aee0-4fae-9735-423293ecffbb1-3-310x220.jpg",
+      "PackagePath": "staticwebassets\\uploads\\banners\\b2fdbcb8-aee0-4fae-9735-423293ecffbb1-3-310x220.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\banners\\c9190875-c20a-409e-a022-0b20ac1a104d1-1-770x300.jpg",
       "PackagePath": "staticwebassets\\uploads\\banners\\c9190875-c20a-409e-a022-0b20ac1a104d1-1-770x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\banners\\cd7c6ff6-4ef8-46a3-8d84-983778fb056d1-3-310x220.jpg",
+      "PackagePath": "staticwebassets\\uploads\\banners\\cd7c6ff6-4ef8-46a3-8d84-983778fb056d1-3-310x220.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\banners\\e0a1fe7c-fa3d-4e9a-b412-2911f59acc961-3-310x220.jpg",
+      "PackagePath": "staticwebassets\\uploads\\banners\\e0a1fe7c-fa3d-4e9a-b412-2911f59acc961-3-310x220.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\banners\\fe964afb-7244-42aa-9990-8a925fcff5d81-3-310x220.jpg",
+      "PackagePath": "staticwebassets\\uploads\\banners\\fe964afb-7244-42aa-9990-8a925fcff5d81-3-310x220.jpg"
     },
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\06cb6c49-fb3d-45f3-ab5a-11c2dd4a8b6c1-2-370x300.jpg",
@@ -1477,8 +3901,36 @@
       "PackagePath": "staticwebassets\\uploads\\plants\\134eb65c-c1a5-413b-a200-983ceec7363a1-8-270x300.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\1e284885-4eb6-4d42-941c-7bdfe132aea41-6-270x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\1e284885-4eb6-4d42-941c-7bdfe132aea41-6-270x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\1e5fd01a-ea0c-48c4-880b-16545e22fff91-7-270x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\1e5fd01a-ea0c-48c4-880b-16545e22fff91-7-270x300.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\1fc6817d-264f-4d1d-ab51-266dd0e113781-2-370x300.jpg",
       "PackagePath": "staticwebassets\\uploads\\plants\\1fc6817d-264f-4d1d-ab51-266dd0e113781-2-370x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\2c1f1a60-2c01-416a-a6f4-93cd7c3ec14c1-7-270x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\2c1f1a60-2c01-416a-a6f4-93cd7c3ec14c1-7-270x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\2f144196-8835-4f90-bf25-8eca18ceb7461-1-310x220.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\2f144196-8835-4f90-bf25-8eca18ceb7461-1-310x220.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\43cd93b9-bfa8-4cae-a748-ce7c53531be01-4-570x633.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\43cd93b9-bfa8-4cae-a748-ce7c53531be01-4-570x633.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\44d2734c-c86d-4aaf-bed5-0d67ba19eee7download (2).jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\44d2734c-c86d-4aaf-bed5-0d67ba19eee7download (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\4e70a2c9-f3b2-4997-bf57-f4d779358219download.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\4e70a2c9-f3b2-4997-bf57-f4d779358219download.jpg"
     },
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\5109ae76-5891-4153-9c67-56833faf08191-4-570x633.jpg",
@@ -1505,8 +3957,20 @@
       "PackagePath": "staticwebassets\\uploads\\plants\\5bcfb61f-4da8-4c3e-8faa-9538287004dadownload (1).jpg"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\60d70d73-e778-4852-8abf-948d93dc277c1-1-310x220.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\60d70d73-e778-4852-8abf-948d93dc277c1-1-310x220.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\68b0e377-d350-4f57-ba52-c7f993b6be401-4-570x633.jpg",
       "PackagePath": "staticwebassets\\uploads\\plants\\68b0e377-d350-4f57-ba52-c7f993b6be401-4-570x633.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\6c877906-9613-4fb1-a836-6b44375b5f231-4-270x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\6c877906-9613-4fb1-a836-6b44375b5f231-4-270x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\6d68a82e-ab28-45f4-a1ef-d50e2be96f9c1-5-270x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\6d68a82e-ab28-45f4-a1ef-d50e2be96f9c1-5-270x300.jpg"
     },
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\738ddbd0-d7e4-4004-9667-ca6ae2c5dfd6download (2).jpg",
@@ -1515,6 +3979,18 @@
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\75307824-f753-44c3-b1fe-b49c7a4b01921-8-270x300 - Copy.jpg",
       "PackagePath": "staticwebassets\\uploads\\plants\\75307824-f753-44c3-b1fe-b49c7a4b01921-8-270x300 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\821b9841-ee24-4c99-9879-753dca1b72ad1-6-270x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\821b9841-ee24-4c99-9879-753dca1b72ad1-6-270x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\8a532562-1fd4-43b7-9ec3-5ee4dd2990ff1-4-570x633.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\8a532562-1fd4-43b7-9ec3-5ee4dd2990ff1-4-570x633.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\8d2d1b0c-33a4-42d8-b8c3-cacf541de2cd1-3-270x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\8d2d1b0c-33a4-42d8-b8c3-cacf541de2cd1-3-270x300.jpg"
     },
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\9452e452-24e4-4726-9e19-ef4e5dbf79a91-3-570x633.jpg",
@@ -1541,8 +4017,20 @@
       "PackagePath": "staticwebassets\\uploads\\plants\\b79b7bc8-d199-477d-8a59-ff2ec81fad661-2-524x617.png"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\b927b0ca-49c0-46af-b5a8-4cede0206b901-1-310x220.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\b927b0ca-49c0-46af-b5a8-4cede0206b901-1-310x220.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\bb528e2e-9691-43f0-990d-8c212dc54af41-1-270x300.jpg",
       "PackagePath": "staticwebassets\\uploads\\plants\\bb528e2e-9691-43f0-990d-8c212dc54af41-1-270x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\bc3f97af-4cc8-47a6-9a1e-f7f65a2d936edownload (1).jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\bc3f97af-4cc8-47a6-9a1e-f7f65a2d936edownload (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\bd23df67-25dc-4e89-9d29-1459b43f006a1-8-270x300 - Copy.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\bd23df67-25dc-4e89-9d29-1459b43f006a1-8-270x300 - Copy.jpg"
     },
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\c194215e-bdca-4b55-a6eb-9ebc3c170f931-1-270x300.jpg",
@@ -1553,6 +4041,18 @@
       "PackagePath": "staticwebassets\\uploads\\plants\\c46f3de3-b937-480a-81cf-19ba756deef71-3-370x300.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\cf03fec0-ee1f-4f8a-84c0-cf1e0850c2881-9-270x300 - Copy.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\cf03fec0-ee1f-4f8a-84c0-cf1e0850c2881-9-270x300 - Copy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\d3825bb2-617f-4512-bd67-a2d3c33452381-1-310x220.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\d3825bb2-617f-4512-bd67-a2d3c33452381-1-310x220.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\d49cd2c3-bacb-4145-885d-b5143a43ed661-1-310x220.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\d49cd2c3-bacb-4145-885d-b5143a43ed661-1-310x220.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\d509f678-4048-4458-b86c-c5daa1f807211-6-270x300.jpg",
       "PackagePath": "staticwebassets\\uploads\\plants\\d509f678-4048-4458-b86c-c5daa1f807211-6-270x300.jpg"
     },
@@ -1561,16 +4061,80 @@
       "PackagePath": "staticwebassets\\uploads\\plants\\d9571759-0c91-49a1-a543-13c3cf9828a31-3-270x300.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\d9fe4d97-4f77-4deb-9375-acb5dd6f95c61-1-310x220.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\d9fe4d97-4f77-4deb-9375-acb5dd6f95c61-1-310x220.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\e5ad7afc-f831-46f9-8dc0-9b3d5cde3c101-1-310x220.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\e5ad7afc-f831-46f9-8dc0-9b3d5cde3c101-1-310x220.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\e820ea67-016a-4af8-a827-d91e9d9f7bab1-10-270x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\plants\\e820ea67-016a-4af8-a827-d91e9d9f7bab1-10-270x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\plants\\fe0ad0ff-246b-4d29-a711-d0a7ced021df1-2.png",
+      "PackagePath": "staticwebassets\\uploads\\plants\\fe0ad0ff-246b-4d29-a711-d0a7ced021df1-2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\001f8444-d03f-4be8-904e-148cd134dfba1-2-370x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\001f8444-d03f-4be8-904e-148cd134dfba1-2-370x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\01312ccb-0eec-4f1b-aaf4-aa39404f1bdf1.png",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\01312ccb-0eec-4f1b-aaf4-aa39404f1bdf1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\0b0954e1-f361-415c-a62d-d32d700d13f72-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\0b0954e1-f361-415c-a62d-d32d700d13f72-1.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\1581f7ac-0677-4d96-b6ea-79d1476142ea1-1.jpg",
       "PackagePath": "staticwebassets\\uploads\\sliders\\1581f7ac-0677-4d96-b6ea-79d1476142ea1-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\254e6906-cbfc-481a-aef5-aa7aee024b9f1-1-770x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\254e6906-cbfc-481a-aef5-aa7aee024b9f1-1-770x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\25b74a7b-b1ed-467c-a1a1-5ddc79258f011-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\25b74a7b-b1ed-467c-a1a1-5ddc79258f011-1.jpg"
     },
     {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\59428de8-34da-4807-b8a6-a85c8a76325f1-2-524x617.png",
       "PackagePath": "staticwebassets\\uploads\\sliders\\59428de8-34da-4807-b8a6-a85c8a76325f1-2-524x617.png"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\72f66c99-ae3a-406c-9bbb-5594ceff8e9d1-1-1820x443.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\72f66c99-ae3a-406c-9bbb-5594ceff8e9d1-1-1820x443.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\a282dc3e-7cc6-47fe-aeda-bd19522bfc4e1-1-770x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\a282dc3e-7cc6-47fe-aeda-bd19522bfc4e1-1-770x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\ad481c19-cd74-4eb8-abe5-6644065a8bcd1-1-770x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\ad481c19-cd74-4eb8-abe5-6644065a8bcd1-1-770x300.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\b17f17cc-b86f-4606-aabd-cbc0f7f753901-1-524x617.png",
       "PackagePath": "staticwebassets\\uploads\\sliders\\b17f17cc-b86f-4606-aabd-cbc0f7f753901-1-524x617.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\dcd77933-6e5a-45dd-9319-f5f2eb0785151-1-1820x443.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\dcd77933-6e5a-45dd-9319-f5f2eb0785151-1-1820x443.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\f304e016-2027-4428-9daa-c02fd6df4a351-1-770x300.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\f304e016-2027-4428-9daa-c02fd6df4a351-1-770x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\ProniaProject\\wwwroot\\uploads\\sliders\\f6f3881e-48b5-47c1-aa27-9ba6b8b060661-1-570x633.jpg",
+      "PackagePath": "staticwebassets\\uploads\\sliders\\f6f3881e-48b5-47c1-aa27-9ba6b8b060661-1-570x633.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ProniaProject.Microsoft.AspNetCore.StaticWebAssets.props",

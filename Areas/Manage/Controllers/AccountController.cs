@@ -74,5 +74,39 @@ namespace ProniaProject.Areas.Manage.Controllers
             return RedirectToAction("index", "dashboard");
         }
 
+        [Authorize(Roles = "SuperAdmin, Admin")]
+        public IActionResult Users()
+        {
+            var users = _userManager.Users.ToList();
+            return View(users);
+        }
+
+        [Authorize(Roles = "SuperAdmin")]
+
+        public IActionResult CreateAdmin()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateAdmin(AdminRegisterViewModel adminRegisterViewModel)
+        {
+            AppUser user = new AppUser
+            {
+                UserName = adminRegisterViewModel.UserName,
+                PasswordHash=adminRegisterViewModel.Password,
+                IsAdmin = true,
+            };
+
+            var result = await _userManager.CreateAsync(user, user.PasswordHash);
+
+            await _userManager.AddToRoleAsync(user, "Admin");
+
+            if (!result.Succeeded) return StatusCode(404);
+
+
+            return RedirectToAction("users");
+
+        }
     }
 }

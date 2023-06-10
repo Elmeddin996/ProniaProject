@@ -708,13 +708,7 @@
     /*----------------------------------------*/
     /*  Close Button Actions
 /*----------------------------------------*/
-    $('.button-close').on('click', function (e) {
-        var dom = $('.main-wrapper').children();
-        e.preventDefault();
-        var $this = $(this);
-        $this.parents('.open').removeClass('open');
-        dom.find('.global-overlay').removeClass('overlay-open');
-    });
+  
 
     /*----------------------------------------*/
     /*  Offcanvas

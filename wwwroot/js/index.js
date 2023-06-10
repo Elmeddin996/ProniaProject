@@ -36,8 +36,16 @@ $(document).on("click", ".addtocart", function (e) {
         })
 })
 
+$(document).on('click', '.button-close', function (e) {
+    var dom = $('.main-wrapper').children();
+    e.preventDefault();
+    var $this = $(this);
+    $this.parents('.open').removeClass('open');
+    dom.find('.global-overlay').removeClass('overlay-open');
+});
 
-$(document).on("click", ".product-item_remove", function (e) {
+
+$(document).on("click", ".removefrombasket", function (e) {
     e.preventDefault();
     let url = $(this).attr("href");
     fetch(url)
@@ -53,6 +61,5 @@ $(document).on("click", ".product-item_remove", function (e) {
         })
     
 })
-
 
 

@@ -1,11 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProniaProject.Areas.Manage.ViewModels;
 using ProniaProject.DAL;
 using ProniaProject.Models;
+using System.Data;
 
 namespace ProniaProject.Areas.Manage.Controllers
 {
+    [Authorize(Roles = "SuperAdmin, Admin")]
+
     [Area("manage")]
     public class CategorieController : Controller
     {

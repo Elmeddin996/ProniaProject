@@ -135,7 +135,7 @@ namespace ProniaProject.Controllers
 
         public IActionResult RemoveBasket(int id)
         {
-            var basketStr = Request.Cookies["basket"];
+            var basketStr = Request.Cookies["Basket"];
             if (basketStr == null)
                 return StatusCode(404);
 
@@ -146,12 +146,10 @@ namespace ProniaProject.Controllers
             if (item == null)
                 return StatusCode(404);
 
-            if (item.Count > 1)
-                item.Count--;
-            else
-                cookieItems.Remove(item);
+           
+            cookieItems.Remove(item);
 
-            Response.Cookies.Append("basket", JsonConvert.SerializeObject(cookieItems));
+            Response.Cookies.Append("Basket", JsonConvert.SerializeObject(cookieItems));
 
             BasketViewModel bv = new BasketViewModel();
             foreach (var ci in cookieItems)
@@ -171,7 +169,7 @@ namespace ProniaProject.Controllers
         public IActionResult ShowBasket()
         {
             var basket = new List<BasketItemCookieViewModel>();
-            var basketStr = Request.Cookies["basket"];
+            var basketStr = Request.Cookies["Basket"];
 
             if (basketStr != null)
                 basket = JsonConvert.DeserializeObject<List<BasketItemCookieViewModel>>(basketStr);
