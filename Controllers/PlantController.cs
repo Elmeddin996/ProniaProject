@@ -16,6 +16,7 @@ namespace ProniaProject.Controllers
         {
             _context = context;
         }
+        
         public IActionResult Detail(int id)
         {
             Plant plant = _context.Plants
@@ -24,17 +25,17 @@ namespace ProniaProject.Controllers
                 .Include(x => x.PlantComments).ThenInclude(x => x.AppUser)
                 .Include(x => x.PlantTags).ThenInclude(bt => bt.Tag).FirstOrDefault(x => x.Id == id);
 
-            if (plant == null) return View("Error");
 
             PlantDetailViewModel vm = new PlantDetailViewModel
             {
                 Plant = plant,
                 RelatedPlants = _context.Plants.Include(x => x.PlantImages).Where(x => x.CategorieId == plant.CategorieId).ToList(),
-                Comment = new PlantComment { PlantId = id }
+                Comment = new PlantComment {PlantId=id}
             };
 
             return View(vm);
         }
+
 
         public IActionResult GetPlantDetail(int id)
         {
@@ -146,7 +147,7 @@ namespace ProniaProject.Controllers
             if (item == null)
                 return StatusCode(404);
 
-           
+
             cookieItems.Remove(item);
 
             Response.Cookies.Append("Basket", JsonConvert.SerializeObject(cookieItems));
@@ -166,17 +167,17 @@ namespace ProniaProject.Controllers
             return PartialView("_CartPartialView", bv);
         }
 
-      
+
 
         public IActionResult ViewCart()
         {
             BasketViewModel bv = new BasketViewModel();
-            var basketItems = _context.BasketItems.Include(x=>x.Plant).ThenInclude(x=>x.PlantImages);
+            var basketItems = _context.BasketItems.Include(x => x.Plant).ThenInclude(x => x.PlantImages);
             foreach (var item in basketItems)
             {
                 BasketItemViewModel bi = new BasketItemViewModel
                 {
-                    Plant =  item.Plant,
+                    Plant = item.Plant,
                     Count = item.Count
                 };
                 bv.BasketItems.Add(bi);
@@ -185,4 +186,4 @@ namespace ProniaProject.Controllers
         }
     }
 }
-    
+

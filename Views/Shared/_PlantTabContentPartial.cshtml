@@ -7,7 +7,7 @@
         <div class="col-xl-3 col-md-4 col-sm-6">
             <div class="product-item">
                 <div class="product-img">
-                    <a asp-controller="plant" asp-action="detail">
+                    <a asp-controller="plant" asp-action="detail" asp-route-id="@item.Id">
                         <img class="primary-img"
                              src="~/uploads/plants/@item.PlantImages.FirstOrDefault(x=>x.PosterStatus==true)?.ImageName"
                              alt="Product Images" />
