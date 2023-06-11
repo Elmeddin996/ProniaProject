@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProniaProject.DAL;
+using ProniaProject.Models;
 using System.Data;
 
 namespace ProniaProject.Areas.Manage.Controllers
@@ -20,7 +21,11 @@ namespace ProniaProject.Areas.Manage.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            Order order = new Order
+            {
+                OrderItems = _context.OrderItems.ToList()
+            };
+            return View(order);
         }
 
         public IActionResult getPieChartDatas()
@@ -46,12 +51,13 @@ namespace ProniaProject.Areas.Manage.Controllers
 
         public IActionResult getLinearChartDatas()
         {
-
-
+            var total = _context.OrderItems.Select(x => x.UnitPrice * x.Count).Sum();
+            var data = _context.OrderItems.Select(x=>x.UnitPrice*x.Count).ToList();
             return Json(new
             {
-
-                Labels = new string[] { "Yanvdsar", "Fevral", "Mart" }
+                Total= total,
+                Data=data,
+                Labels = new string[]{"Yan", "Fev","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"}
             });
 
         }
