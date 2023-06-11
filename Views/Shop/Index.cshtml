@@ -120,7 +120,7 @@
                              role="tabpanel"
                              aria-labelledby="grid-view-tab">
                             <div class="product-grid-view row g-y-20">
-                               @foreach (var plant in Model.Plants)
+                               @foreach (var plant in Model.PaginatedList.Items)
                                 {
                                     <div class="col-md-4 col-sm-6">
                                         <div class="product-item">
@@ -190,7 +190,7 @@
                              role="tabpanel"
                              aria-labelledby="list-view-tab">
                             <div class="product-list-view row g-y-30">
-                               @foreach (var plant in Model.Plants)
+                               @foreach (var plant in Model.PaginatedList.Items)
                                 {
                                     <div class="col-12">
                                         <div class="product-item">
@@ -262,18 +262,16 @@
                     </div>
                     <div class="pagination-area">
                         <nav aria-label="Page navigation example">
-                            <ul class="pagination justify-content-center">
-                                <li class="page-item active">
-                                    <a class="page-link" href="#">1</a>
+                            <ul class="pagination flex-center">
+                                <li class="page-item @(Model.PaginatedList.HasPrev?"":"disabled")">
+                                    <a class="page-link" asp-action="index" asp-route-page="@(Model.PaginatedList.PageIndex-1)" tabindex="-1">Prev</a>
                                 </li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">2</a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">3</a>
-                                </li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#" aria-label="Next">&raquo;</a>
+                                @for (int i = 1; i <= Model.PaginatedList.TotalPage; i++)
+                                {
+                                    <li class="page-item @(i==Model.PaginatedList.PageIndex?"active":"")"><a class="page-link" asp-action="index" asp-route-page="@i">@i</a></li>
+                                }
+                                <li class="page-item @(Model.PaginatedList.HasNext?"":"disabled")">
+                                    <a class="page-link" asp-action="index" asp-route-page="@(Model.PaginatedList.PageIndex+1)">Next</a>
                                 </li>
                             </ul>
                         </nav>

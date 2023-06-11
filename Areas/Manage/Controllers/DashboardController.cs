@@ -43,5 +43,17 @@ namespace ProniaProject.Areas.Manage.Controllers
                 Colors = colors
             });
         }
+
+        public IActionResult getLinearChartDatas()
+        {
+
+
+            return Json(new
+            {
+
+                Labels = new string[] { "Yanvdsar", "Fevral", "Mart" }
+            });
+
+        }
     }
 }

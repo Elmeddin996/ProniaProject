@@ -25,7 +25,7 @@ namespace ProniaProject.Controllers
             {
                 Categories = _context.Categories.Include(x => x.Plants).ToList(),
                 Tags = _context.Tags.ToList(),
-                PaginatedList = PaginatedList<Plant>.Create(query, page, 1)
+                PaginatedList = PaginatedList<Plant>.Create(query, page, 3)
             };
 
 
