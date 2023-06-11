@@ -7,6 +7,7 @@ using ProniaProject.Models;
 using ProniaProject.Services;
 using ProniaProject.ViewModel;
 using System.Data;
+using System.Security.Claims;
 
 namespace ProniaProject.Controllers
 {
@@ -41,6 +42,12 @@ namespace ProniaProject.Controllers
             if (user == null || user.IsAdmin)
             {
                 ModelState.AddModelError("", "UserName or Password incorrect");
+                return View();
+            }
+
+            if (!user.EmailConfirmed)
+            {
+                ModelState.AddModelError("", "Confirm Your Email!!!");
                 return View();
             }
 
@@ -99,13 +106,17 @@ namespace ProniaProject.Controllers
                 return View();
             }
 
+            var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+            var confirmationLink = Url.Action(nameof(ConfirmEmail), "Account", new { token, email = user.Email }, Request.Scheme);
+            _emailSender.Send(user.Email, "ConfirmEmail", $"Click <a href=\"{confirmationLink}\">here</a> confirm password");
+
             await _userManager.AddToRoleAsync(user, "Member");
 
-            await _signInManager.SignInAsync(user, false);
+            
 
             TempData["Success"] = "Account created successfully";
 
-            return RedirectToAction("index", "home");
+            return RedirectToAction(nameof(SuccessRegistration));
         }
 
 
@@ -222,6 +233,60 @@ namespace ProniaProject.Controllers
         public IActionResult ForgetPassword()
         {
             return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ForgetPassword(ForgotPasswordViewModel passwordVM)
+        {
+            if (!ModelState.IsValid) return View();
+            AppUser user = await _userManager.FindByEmailAsync(passwordVM.Email);
+
+            if (user == null || user.IsAdmin)
+            {
+                TempData["Error"] = "Email is not correct!";
+                ModelState.AddModelError("Email", "Email is not correct");
+                return View();
+            }
+
+            string token = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+            string url = Url.Action("resetpassword", "account", new { email = passwordVM.Email, token = token }, Request.Scheme);
+
+            _emailSender.Send(passwordVM.Email, "Reset Password", $"Click <a href=\"{url}\">here</a> to reset your password");
+            return RedirectToAction("login");
+        }
+
+        public async Task<IActionResult> Resetpassword(string email, string token)
+        {
+            AppUser user = await _userManager.FindByEmailAsync(email);
+
+            if (user == null || user.IsAdmin || !await _userManager.VerifyUserTokenAsync(user, _userManager.Options.Tokens.PasswordResetTokenProvider, "ResetPassword", token))
+                return RedirectToAction("login");
+
+            ViewBag.Email = email;
+            ViewBag.Token = token;
+
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Resetpassword(ResetPasswordViewModel resetVM)
+        {
+            AppUser user = await _userManager.FindByEmailAsync(resetVM.Email);
+
+            if (user == null || user.IsAdmin)
+                return RedirectToAction("login");
+
+            var result = await _userManager.ResetPasswordAsync(user, resetVM.Token, resetVM.Password);
+
+            if (!result.Succeeded)
+            {
+                return RedirectToAction("login");
+            }
+
+            return RedirectToAction("login");
         }
 
        
