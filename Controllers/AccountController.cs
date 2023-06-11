@@ -218,5 +218,13 @@ namespace ProniaProject.Controllers
 
             return RedirectToAction("profile");
         }
+
+        public IActionResult ForgetPassword()
+        {
+            return View();
+        }
+
+       
+
     }
 }

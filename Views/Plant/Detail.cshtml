@@ -215,24 +215,7 @@
 
                                 </div>
                                 <div class="feedback-area">
-                                    <h2 class="heading">Leave a comment</h2>
-                                    <form class="feedback-form" action="#">
-                                        <div class="group-input">
-                                           
-                                        <div class="form-field mt-30">
-                                            <textarea name="message"
-                                                      placeholder="Message"
-                                                      class="textarea-field"></textarea>
-                                        </div>
-                                        <div class="button-wrap pt-5">
-                                            <button type="submit"
-                                                    value="submit"
-                                                    class="btn btn-custom-size xl-size btn-pronia-primary"
-                                                    name="submit">
-                                                Post Comment
-                                            </button>
-                                        </div>
-                                    </form>
+                                    @Html.Partial("_PlantCommentFormPartial", Model.Comment)
                                 </div>
                             </div>
                         </div>

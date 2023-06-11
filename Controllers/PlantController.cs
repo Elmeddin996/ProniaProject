@@ -184,6 +184,49 @@ namespace ProniaProject.Controllers
             }
             return View(bv);
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Comment(PlantComment comment)
+        {
+
+            if (!User.Identity.IsAuthenticated || !User.IsInRole("Member"))
+                return RedirectToAction("login", "account", new { returnUrl = Url.Action("detail", "plant", new { id = comment.PlantId }) });
+
+
+            if (!ModelState.IsValid)
+            {
+                Plant plant = _context.Plants
+            .Include(x => x.PlantImages)
+            .Include(x => x.Categories)
+                .Include(x => x.PlantComments).ThenInclude(x => x.AppUser)
+            .Include(x => x.PlantTags).ThenInclude(bt => bt.Tag).FirstOrDefault(x => x.Id == comment.PlantId);
+
+                if (plant == null) return View("Error");
+
+                PlantDetailViewModel vm = new PlantDetailViewModel
+                {
+                    Plant = plant,
+                    RelatedPlants = _context.Plants.Include(x => x.PlantImages).Where(x => x.CategorieId == plant.CategorieId).ToList(),
+                    Comment = new PlantComment { PlantId = comment.PlantId }
+                };
+                vm.Comment = comment;
+                return View("Detail", vm);
+            }
+
+            string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            comment.AppUserId = userId;
+            comment.CreatedAt = DateTime.UtcNow.AddHours(4);
+
+            _context.PlantComments.Add(comment);
+            _context.SaveChanges();
+
+            return RedirectToAction("detail", new { id = comment.PlantId });
+
+        }
+
+
     }
 }
 
